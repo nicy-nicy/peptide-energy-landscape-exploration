@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#SBATCH -p TEST
+#SBATCH --job-name=monomerbhptrestart
+#SBATCH -n16 -N1
+##SBATCH --mail-type=FAIL # Receive an email if your job fails
+##SBATCH --time=5-00:00:00
+
+echo "Time: `date`" > jobnumber
+
+echo $SLURM_NTASKS > nodes.info
+srun hostname >> nodes.info
+echo $USER >> nodes.info
+pwd >> nodes.info
+
+module purge # unload all modules from user's environment.
+module load gcc/7.5.0
+module load mpi/openmpi/gnu7/4.1.0
+
+mpirun /sharedscratch/nn320/softwarewales/GMIN/builds/gfortran_amber12_mpi/A12GMIN > output
+
+echo Finished at `date` >> jobnumber

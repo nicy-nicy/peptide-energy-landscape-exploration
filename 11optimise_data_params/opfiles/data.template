@@ -1,0 +1,21 @@
+! SLOPPYCONV sloppy
+! TIGHTCONV tight
+GROUPROTATION
+! STEP stepsize 0.0
+! TEMPERATURE temp
+FIXBOTH
+MAXERISE 1.0D-4
+STEPS 100 1.0
+SAVE 26
+EDIFF 0.01D0
+! GEOMDIFFTOL 2.6D0                                                             
+TRACKDATA
+DUMPINT 10000
+UPDATES 1500
+MAXIT 3000 5000
+MAXBFGS 0.2D0
+RADIUS 1000.0                                                                   
+! DUMPSTRUCTURES                                                                
+! DEBUG                                                                         
+! AMBER12
+TARGET -154.35

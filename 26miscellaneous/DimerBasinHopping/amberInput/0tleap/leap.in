@@ -1,0 +1,9 @@
+source leaprc.ff99SBildn                                                        
+mol1 = loadPdb "monomerminncrst.pdb"                                                  
+mol2 = copy mol1                                                                
+translate mol2 {7.4 7.4 7.4}                                                    
+bigmol = combine {mol1 mol2}                                                    
+set default PBradii mbondi3                                                     
+saveamberparm bigmol old_coords.prmtop old_coords.inpcrd                        
+savepdb bigmol old_mol.pdb                                                      
+quit

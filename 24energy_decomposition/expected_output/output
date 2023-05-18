@@ -1,0 +1,101 @@
+
+ OPTIM version Unversioned directory, Copyright (C) David J. Wales
+ OPTIM comes with ABSOLUTELY NO WARRANTY; for details supply WARRANTY as an input keyword.
+ This is free software, and you are welcome to redistribute it
+ under certain conditions; provide keyword COPYRIGHT to see the details.
+
+getparams> OPTIM is running on host name
+nest.ch.private.cam.ac.uk
+ getparams> Number of atoms (or variables)  determined as    110
+ getparams> Number of optimisation degrees of freedom    330
+ keywords> Multiple jobs will be run, reading additional starting coordinates from file extractedmin
+ keywords> input coordinates for AMBER12 system will be read from start                                                                                                                   
+ keywords> reading in xyz format
+ chirality init> Number of bonds:     113
+ find_cistrans> WARNING! peptide bond found for non-standard residue(s):      1and     2
+ find_cistrans> WARNING! peptide bond found for non-standard residue(s):      7and     8
+ find_cistrans>      7 peptide bonds detected
+ find_chiral>      4 chiral atoms found
+ keywords> Set frequency conversion factor to the AMBER default value:    20454830000000.000     
+ keywords> This corresponds to frequencies being given in radians/s
+ fetchz> LBFGS minimization, maximum steps=       1
+
+ fetchz>    330 Cartesian coordinates will be optimised for    110 atoms
+
+ fetchz> Point group checked when RMS force <     0.00100000, highest symmetry axis tested for=  6
+ fetchz> Initial distance and eigenvalue tolerances in symmetry determination=     0.00010000     0.00010000
+ fetchz> Minimum number of optimization steps=     0
+ fetchz> Convergence criterion for LBFGS optimization: RMS force< 0.10000000+101 maximum steps=       1
+ fetchz> Maximum energy rise in LBFGS minimization=    0.1000000000E-09
+ fetchz> Number of updates in LBFGS=      175
+ fetchz> Number of updates in mind=   4
+ fetchz> Initial guess for diagonal elements in LBFGS=     0.1000
+ fetchz> Maximum step size in LBFGS energy minimization=     0.0000
+ fetchz> Maximum step size in LBFGS neb image minimization=                 0.2000
+ fetchz> Warnings will be issued if atoms become closer than 0.5 units
+ fetchz> Coordinates for intermediate steps will not be dumped to file points
+
+
+ OPTIM> Using translational/rotational ev shift=     1000000.000    
+ mylbfgs> Resetting LBFGS minimiser
+ mylbfgs> Energy and RMS force=    -152.4410580        0.7436937955E-01 after      0 steps
+ mylbfgs> Final energy is   -152.44105798449823    
+ rotcon> Rotational constants (in cm-1) and principal moments of inertia: 
+        0.00105         0.00117         0.00836      7200.28882     51322.28185     57226.37787
+ symmetry> The full molecular point group is C1  .
+ symmetry> The largest Abelian subgroup of the full molecular point group is C1  .
+ symmetry> Distance tolerance=     0.00010 Inertia tolerance=     0.00010
+ symmetry> Order of full point group=     1
+Energy decomposition
+Total energy:             -152.4410579845
+Total van der Waals:       -22.0731361867
+Total electronic:         -457.5183723780
+Generalised Born:          -70.3892490143
+Surface energy:              0.0000000000
+Bond energy:                 2.6533566119
+Angular term:                3.2626459689
+Dihedral term:              34.2451043856
+vdW 1-4 term:               25.8163204063
+Electronic 1-4:            331.5622722218
+Restraints:                  0.0000000000
+Urey Bradley angle:          0.0000000000
+Improper energy:             0.0000000000
+CMAP:                        0.0000000000
+
+ geopt>                          **** CONVERGED ****
+
+ OPTIM> Start coordinates overwritten from file extractedmin
+ OPTIM> Using translational/rotational ev shift=     1000000.000    
+ mylbfgs> Resetting LBFGS minimiser
+ mylbfgs> Energy and RMS force=    -158.3999651        0.9548962864E-07 after      0 steps
+ mylbfgs> Final energy is   -158.39996513371364    
+ rotcon> Rotational constants (in cm-1) and principal moments of inertia: 
+        0.00245         0.00296         0.00791      7614.86707     20341.56030     24584.23090
+ symmetry> The full molecular point group is C1  .
+ symmetry> The largest Abelian subgroup of the full molecular point group is C1  .
+ symmetry> Distance tolerance=     0.00010 Inertia tolerance=     0.00010
+ symmetry> Order of full point group=     1
+Energy decomposition
+Total energy:             -158.3999651337
+Total van der Waals:       -32.3255563185
+Total electronic:         -480.4751076755
+Generalised Born:          -53.1431004396
+Surface energy:              0.0000000000
+Bond energy:                 2.7048796465
+Angular term:                3.4262267598
+Dihedral term:              39.8853326906
+vdW 1-4 term:               25.8584574011
+Electronic 1-4:            335.6689028019
+Restraints:                  0.0000000000
+Urey Bradley angle:          0.0000000000
+Improper energy:             0.0000000000
+CMAP:                        0.0000000000
+
+ geopt>                          **** CONVERGED ****
+
+ OPTIM> End of multijob coordinates
+
+ Elapsed time=                                 0.01
+ OPTIM> # of energy calls=                          0 time=           0.00 %=  0.0
+ OPTIM> # of energy+gradient calls=                 2 time=           0.00 %= 34.1
+ OPTIM> # of energy+gradient+Hessian calls=         0 time=           0.00 %=  0.0

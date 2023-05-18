@@ -1,0 +1,25 @@
+NATOMS 110                                                           
+SLURM                                                                           
+                                                                                
+! ADDMINXYZ alllowest.xyz                                                       
+! CONNECTPAIRS connectfile
+! CYCLES 1                                                                       
+! UNTRAP 2.0 4.0 3.0
+! CYCLES 6
+! DUMMYRUN
+
+CV 0.01 0.9 0.001
+
+TEMPERATURE 0.592                                                               
+PLANCK 9.536D-14                                                                
+EXEC /sharedscratch/nn320/softwarewales/OPTIM/builds/gfortran/A12OPTIM          
+COPYFILES perm.allow min.in coords.prmtop coords.inpcrd                         
+COPYOPTIM                                                                       
+SEED 1                                                                          
+DIRECTION AB                                                                    
+CONNECTIONS 1                                                                   
+PERMDIST                                                                        
+ETOL 1.0D-4                                                                     
+GEOMDIFFTOL 3.0D-1                                                              
+ITOL 1.0D0                                                                      
+AMBER12         

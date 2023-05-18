@@ -1,0 +1,10 @@
+REOPTIMISEENDPOINTS
+BFGSMIN 1.0D-6
+NOCISTRANS
+LPERMDIST 11 0.5 5.0 0.06
+NOHESS   
+ENDNUMHESS                                                                    
+GEOMDIFFTOL 0.3                                                                
+EDIFFTOL 1.0D-4
+DUMPDATA
+AMBER12 start

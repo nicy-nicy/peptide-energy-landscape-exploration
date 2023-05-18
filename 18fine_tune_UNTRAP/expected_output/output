@@ -1,0 +1,1122 @@
+PATHSAMPLE version rUnversioned directory                                                 
+GetNodes> Will run 1 jobs per core
+GetNodes> Number of simultaneous OPTIM jobs=16
+GetNodes> Following 16 nodes are available:
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+node-0-15
+GetNodes> Working in directory /sharedscratch/nn320/softwarewales/nicyexample/9qFineTuneUntrap
+mysystem> hostname > currentnode
+mysystem> rm currentnode
+mysystem> sinfo --version | sed 's/-wlm//' | cut -c7-8 > slurmversion
+mysystem> rm slurmversion
+keywords> Distance tolerance for identifying atoms in the same orbit=        0.00100
+ keywords> Maximum number of secondary sets in perm.allow file=  5
+keywords> Number of groups of permutable atoms=    12
+ keywords> read AMBER12 keyword
+ readtopology> Number of dihedrals:     403
+ readtopology> Reading dihedrals including hydrogens
+ readtopology> Reading dihedrals without hydrogens
+*************************************************************************************************
+debug printing is OFF
+Running on         16 processors for distributed memory SLURM setup
+Number of jobs per processor=         1
+Sleep times between OPTIM job submissions (s)=     1.000000000         1.000000000    
+The following additional files will be copied to distributed nodes: perm.allow min.in coords.prmtop coords.inpcrd
+finite system (not bulk)
+OPTIM system symbol: UN
+number of atoms or variables=  110
+minimum number of connections for minima=         1
+maximum number of ts searches to achieve this minimum value=        10
+random number seed=         1
+initial perturbation parameter single-ended transition state searches=        0.90000
+energy difference  criterion for distinguishing stationary points=    0.1000000000E-03
+distance criterion for distinguishing stationary points=    0.3000000000E+00
+inertia difference criterion for setup check=    0.1000000000E+01
+sampling direction is a<-b
+OPTIM executable: /sharedscratch/nn320/softwarewales/OPTIM/builds/gfortran/A12OPTIM               
+Temperature=        0.59200
+Number of cycles for connections between local minima=       6
+No Pfold iterations
+Rate calculation will iteratively remove minima with     0 connections or fewer
+path.info files will be read as min-sad-min triples
+Pairs of minima will be chosen according to their lowest barrier to a minimum in a product superbasin
+Connections will not be attempted to minima higher than         4.00000 energy units above the first minimum
+Pairs will be recalculated every          1 cycles
+Resetting EVCUT to  0.10E+21 for SI units; check it is appropriate for your system
+*************************************************************************************************
+setup> locations read for          1 min of type A
+setup> locations read for          1 min of type B
+mindouble> Increasing maximum number of minima to       52
+mindouble> Increasing maximum number of minima to      104
+mindouble> Increasing maximum number of minima to      208
+mindouble> Increasing maximum number of minima to      416
+mindouble> Increasing maximum number of minima to      832
+setup> parameters read for        445 min
+setup> points for        445 minima read from file points.min
+tsdouble> Maximum number of ts increased to       20
+tsdouble> Maximum number of ts increased to       40
+tsdouble> Maximum number of ts increased to       80
+setup> WARNING *** ts, + min, - min, unphysical barriers:     78   334   334     68.08356507         68.08356507    
+tsdouble> Maximum number of ts increased to      160
+tsdouble> Maximum number of ts increased to      320
+setup> parameters read for        187 ts
+setup> Setting up ts pointers
+setup> Checking ts moments of inertia
+setup> Calculating rate constants
+main> time spent in setup=        0.03632
+mysystem> grep -c start odata.connect > grepout
+mysystem> rm -f odata.*[0-9] > /dev/null
+mysystem> rm -f convcheck.*[0-9] > /dev/null
+mysystem> rm -f path.[0-9]*.xyz.*[0-9] > /dev/null
+mysystem> rm -f EofS.*[0-9] > /dev/null
+mysystem> rm -f OPTIM.connect.*[0-9] > /dev/null
+mysystem> rm -f OPTIM.checksp.*[0-9] > /dev/null
+mysystem> rm -f OPTIM.tssearch.*[0-9] > /dev/null
+mysystem> rm -f path.info.*[0-9].done > /dev/null
+mysystem> rm -f min.data.info.*[0-9] > /dev/null
+mysystem> rm -f input.crd.*[0-9] > /dev/null
+mysystem> rm -f start.*[0-9] > /dev/null
+mysystem> rm -f finish.*[0-9] > /dev/null
+mysystem> rm -f points1.inp.*[0-9] > /dev/null
+mysystem> rm -f points2.inp.*[0-9] > /dev/null
+mysystem> rm -f vector.dump.*[0-9] > /dev/null
+mysystem> rm -f coords.*[0-9] > /dev/null
+mysystem> rm -f path.xyz.*[0-9] > /dev/null
+mysystem> rm -f points.final.*[0-9] > /dev/null
+mysystem> rm -rf *tempcopyfiles > /dev/null
+mysystem> rm -f submit_*[0-9]*sh > /dev/null
+mysystem> rm -f nebreadguess*[0-9]* > /dev/null
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     214     213        3.3094500555
+     215     213        3.2222085068
+     289     213        3.2146972689
+     338     213        3.1989643632
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     290     5.108387611    
+     302     365     4.457065504    
+     303     365     4.187041807    
+     339     365     4.175653538    
+     417     368     3.933208324    
+     399     410     3.787439301    
+     365     327     3.776376515    
+     367     348     3.719526181    
+     408     332     3.639091505    
+     406     332     3.634322142    
+     426     332     3.430128025    
+     438     332     3.419320927    
+     214     217     3.309450055    
+     215     217     3.222208507    
+     289     213     3.214697269    
+     338     217     3.198964363    
+getupair> connecting minima      230 and      290 pairs used=       1 remaining=      15 total pairs=       0
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.17362.230.290
+mysystem> mv finish.1 finish.17362.230.290
+mysystem> mv start.1 start.17362.230.290
+nodes seeding with CHILDPID=     17362
+mysystem> chmod +x submit_0.63261.sh
+getupair> connecting minima      302 and      365 pairs used=       2 remaining=      14 total pairs=       1
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.17389.302.365
+mysystem> mv finish.2 finish.17389.302.365
+mysystem> mv start.2 start.17389.302.365
+nodes seeding with CHILDPID=     17389
+mysystem> chmod +x submit_0.28545.sh
+getupair> connecting minima      303 and      365 pairs used=       3 remaining=      13 total pairs=       2
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.17416.303.365
+mysystem> mv finish.3 finish.17416.303.365
+mysystem> mv start.3 start.17416.303.365
+nodes seeding with CHILDPID=     17416
+mysystem> chmod +x submit_0.37129.sh
+getupair> connecting minima      339 and      365 pairs used=       4 remaining=      12 total pairs=       3
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.17443.339.365
+mysystem> mv finish.4 finish.17443.339.365
+mysystem> mv start.4 start.17443.339.365
+nodes seeding with CHILDPID=     17443
+mysystem> chmod +x submit_0.41165.sh
+getupair> connecting minima      417 and      368 pairs used=       5 remaining=      11 total pairs=       4
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.17470.417.368
+mysystem> mv finish.5 finish.17470.417.368
+mysystem> mv start.5 start.17470.417.368
+nodes seeding with CHILDPID=     17470
+mysystem> chmod +x submit_0.19057.sh
+getupair> connecting minima      399 and      410 pairs used=       6 remaining=      10 total pairs=       5
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.17497.399.410
+mysystem> mv finish.6 finish.17497.399.410
+mysystem> mv start.6 start.17497.399.410
+nodes seeding with CHILDPID=     17497
+mysystem> chmod +x submit_0.99109.sh
+getupair> connecting minima      365 and      327 pairs used=       7 remaining=       9 total pairs=       6
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.17524.365.327
+mysystem> mv finish.7 finish.17524.365.327
+mysystem> mv start.7 start.17524.365.327
+nodes seeding with CHILDPID=     17524
+mysystem> chmod +x submit_0.24982.sh
+getupair> connecting minima      367 and      348 pairs used=       8 remaining=       8 total pairs=       7
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.17551.367.348
+mysystem> mv finish.8 finish.17551.367.348
+mysystem> mv start.8 start.17551.367.348
+nodes seeding with CHILDPID=     17551
+mysystem> chmod +x submit_0.43064.sh
+getupair> connecting minima      408 and      332 pairs used=       9 remaining=       7 total pairs=       8
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.17578.408.332
+mysystem> mv finish.9 finish.17578.408.332
+mysystem> mv start.9 start.17578.408.332
+nodes seeding with CHILDPID=     17578
+mysystem> chmod +x submit_0.83807.sh
+getupair> connecting minima      406 and      332 pairs used=      10 remaining=       6 total pairs=       9
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.17605.406.332
+mysystem> mv finish.10 finish.17605.406.332
+mysystem> mv start.10 start.17605.406.332
+nodes seeding with CHILDPID=     17605
+mysystem> chmod +x submit_0.13189.sh
+getupair> connecting minima      426 and      332 pairs used=      11 remaining=       5 total pairs=      10
+pairsdouble> Maximum number of pairs tried increased to       20
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.17635.426.332
+mysystem> mv finish.11 finish.17635.426.332
+mysystem> mv start.11 start.17635.426.332
+nodes seeding with CHILDPID=     17635
+mysystem> chmod +x submit_0.41473.sh
+getupair> connecting minima      438 and      332 pairs used=      12 remaining=       4 total pairs=      11
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.17665.438.332
+mysystem> mv finish.12 finish.17665.438.332
+mysystem> mv start.12 start.17665.438.332
+nodes seeding with CHILDPID=     17665
+mysystem> chmod +x submit_0.71697.sh
+getupair> connecting minima      214 and      217 pairs used=      13 remaining=       3 total pairs=      12
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.17695.214.217
+mysystem> mv finish.13 finish.17695.214.217
+mysystem> mv start.13 start.17695.214.217
+nodes seeding with CHILDPID=     17695
+mysystem> chmod +x submit_0.14777.sh
+getupair> connecting minima      215 and      217 pairs used=      14 remaining=       2 total pairs=      13
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.17725.215.217
+mysystem> mv finish.14 finish.17725.215.217
+mysystem> mv start.14 start.17725.215.217
+nodes seeding with CHILDPID=     17725
+mysystem> chmod +x submit_0.74887.sh
+getupair> connecting minima      289 and      213 pairs used=      15 remaining=       1 total pairs=      14
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.17755.289.213
+mysystem> mv finish.15 finish.17755.289.213
+mysystem> mv start.15 start.17755.289.213
+nodes seeding with CHILDPID=     17755
+mysystem> chmod +x submit_0.04183.sh
+getupair> connecting minima      338 and      217 pairs used=      16 remaining=       0 total pairs=      15
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.17785.338.217
+mysystem> mv finish.16 finish.17785.338.217
+mysystem> mv start.16 start.17785.338.217
+nodes seeding with CHILDPID=     17785
+mysystem> chmod +x submit_0.29964.sh
+cycle2> analysing result of search        1 on CPU        1 for process id    17362
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     214     213        3.3094500555
+     215     213        3.2222085068
+     338     213        3.1989643632
+     216     213        3.1750460419
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     215     5.108387611    
+     302     366     4.457065504    
+     303     297     4.187041807    
+     339     327     4.175653538    
+     417     410     3.933208324    
+     399     368     3.787439301    
+     365     291     3.776376515    
+     367     325     3.719526181    
+     408     368     3.639091505    
+     406     368     3.634322142    
+     426     335     3.430128025    
+     438     335     3.419320927    
+     214     218     3.309450055    
+     215     218     3.222208507    
+     338     218     3.198964363    
+     216     213     3.175046042    
+getupair> connecting minima      230 and      215 pairs used=       1 remaining=      15 total pairs=      16
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.17819.230.215
+cycle2> analysing result of search        2 on CPU        2 for process id    17389
+mysystem> mv finish.1 finish.17819.230.215
+mysystem> mv start.1 start.17819.230.215
+nodes seeding with CHILDPID=     17819
+mysystem> chmod +x submit_0.86302.sh
+getupair> connecting minima      302 and      366 pairs used=       2 remaining=      14 total pairs=      17
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.17849.302.366
+cycle2> analysing result of search        3 on CPU        3 for process id    17416
+mysystem> mv finish.2 finish.17849.302.366
+mysystem> mv start.2 start.17849.302.366
+nodes seeding with CHILDPID=     17849
+mysystem> chmod +x submit_0.54576.sh
+getupair> connecting minima      303 and      297 pairs used=       3 remaining=      13 total pairs=      18
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.17879.303.297
+cycle2> analysing result of search        4 on CPU        4 for process id    17443
+mysystem> mv finish.3 finish.17879.303.297
+mysystem> mv start.3 start.17879.303.297
+nodes seeding with CHILDPID=     17879
+mysystem> chmod +x submit_0.03283.sh
+getupair> connecting minima      339 and      327 pairs used=       4 remaining=      12 total pairs=      19
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.17910.339.327
+cycle2> analysing result of search        5 on CPU        5 for process id    17470
+mysystem> mv finish.4 finish.17910.339.327
+mysystem> mv start.4 start.17910.339.327
+nodes seeding with CHILDPID=     17910
+mysystem> chmod +x submit_0.26235.sh
+getupair> connecting minima      417 and      410 pairs used=       5 remaining=      11 total pairs=      20
+pairsdouble> Maximum number of pairs tried increased to       40
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.17940.417.410
+cycle2> analysing result of search        6 on CPU        6 for process id    17497
+mysystem> mv finish.5 finish.17940.417.410
+mysystem> mv start.5 start.17940.417.410
+nodes seeding with CHILDPID=     17940
+mysystem> chmod +x submit_0.65602.sh
+getupair> connecting minima      399 and      368 pairs used=       6 remaining=      10 total pairs=      21
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.17970.399.368
+cycle2> analysing result of search        7 on CPU        7 for process id    17524
+mysystem> mv finish.6 finish.17970.399.368
+mysystem> mv start.6 start.17970.399.368
+nodes seeding with CHILDPID=     17970
+mysystem> chmod +x submit_0.72062.sh
+getupair> connecting minima      365 and      291 pairs used=       7 remaining=       9 total pairs=      22
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.18000.365.291
+cycle2> analysing result of search        8 on CPU        8 for process id    17551
+mysystem> mv finish.7 finish.18000.365.291
+mysystem> mv start.7 start.18000.365.291
+nodes seeding with CHILDPID=     18000
+mysystem> chmod +x submit_0.52701.sh
+getupair> connecting minima      367 and      325 pairs used=       8 remaining=       8 total pairs=      23
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.18030.367.325
+cycle2> analysing result of search        9 on CPU        9 for process id    17578
+mysystem> mv finish.8 finish.18030.367.325
+mysystem> mv start.8 start.18030.367.325
+nodes seeding with CHILDPID=     18030
+mysystem> chmod +x submit_0.09776.sh
+getupair> connecting minima      408 and      368 pairs used=       9 remaining=       7 total pairs=      24
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.18061.408.368
+cycle2> analysing result of search       10 on CPU       10 for process id    17605
+mysystem> mv finish.9 finish.18061.408.368
+mysystem> mv start.9 start.18061.408.368
+nodes seeding with CHILDPID=     18061
+mysystem> chmod +x submit_0.51128.sh
+getupair> connecting minima      406 and      368 pairs used=      10 remaining=       6 total pairs=      25
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.18088.406.368
+cycle2> analysing result of search       11 on CPU       11 for process id    17635
+mysystem> mv finish.10 finish.18088.406.368
+mysystem> mv start.10 start.18088.406.368
+nodes seeding with CHILDPID=     18088
+mysystem> chmod +x submit_0.11378.sh
+getupair> connecting minima      426 and      335 pairs used=      11 remaining=       5 total pairs=      26
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.18118.426.335
+cycle2> analysing result of search       12 on CPU       12 for process id    17665
+mysystem> mv finish.11 finish.18118.426.335
+mysystem> mv start.11 start.18118.426.335
+nodes seeding with CHILDPID=     18118
+mysystem> chmod +x submit_0.46066.sh
+getupair> connecting minima      438 and      335 pairs used=      12 remaining=       4 total pairs=      27
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.18148.438.335
+cycle2> analysing result of search       13 on CPU       13 for process id    17695
+mysystem> mv finish.12 finish.18148.438.335
+mysystem> mv start.12 start.18148.438.335
+nodes seeding with CHILDPID=     18148
+mysystem> chmod +x submit_0.15720.sh
+getupair> connecting minima      214 and      218 pairs used=      13 remaining=       3 total pairs=      28
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.18178.214.218
+cycle2> analysing result of search       14 on CPU       14 for process id    17725
+mysystem> mv finish.13 finish.18178.214.218
+mysystem> mv start.13 start.18178.214.218
+nodes seeding with CHILDPID=     18178
+mysystem> chmod +x submit_0.05785.sh
+getupair> connecting minima      215 and      218 pairs used=      14 remaining=       2 total pairs=      29
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.18208.215.218
+cycle2> analysing result of search       15 on CPU       15 for process id    17755
+mysystem> mv finish.14 finish.18208.215.218
+mysystem> mv start.14 start.18208.215.218
+nodes seeding with CHILDPID=     18208
+mysystem> chmod +x submit_0.14946.sh
+getupair> connecting minima      338 and      218 pairs used=      15 remaining=       1 total pairs=      30
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.18238.338.218
+cycle2> analysing result of search       16 on CPU       16 for process id    17785
+mysystem> mv finish.15 finish.18238.338.218
+mysystem> mv start.15 start.18238.338.218
+nodes seeding with CHILDPID=     18238
+mysystem> chmod +x submit_0.47531.sh
+getupair> connecting minima      216 and      213 pairs used=      16 remaining=       0 total pairs=      31
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.18268.216.213
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        1 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+mysystem> mv finish.16 finish.18268.216.213
+mysystem> mv start.16 start.18268.216.213
+nodes seeding with CHILDPID=     18268
+mysystem> chmod +x submit_0.65995.sh
+cycle2> analysing result of search       17 on CPU        1 for process id    17819
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     214     213        3.3094500555
+     215     213        3.2222085068
+     338     213        3.1989643632
+     398     213        3.1612713128
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     289     5.108387611    
+     302     291     4.457065504    
+     303     311     4.187041807    
+     339     366     4.175653538    
+     417     332     3.933208324    
+     399     409     3.787439301    
+     365     382     3.776376515    
+     367     372     3.719526181    
+     408     409     3.639091505    
+     406     409     3.634322142    
+     426     374     3.430128025    
+     438     374     3.419320927    
+     214     335     3.309450055    
+     215     335     3.222208507    
+     338     335     3.198964363    
+     398     286     3.161271313    
+getupair> connecting minima      230 and      289 pairs used=       1 remaining=      15 total pairs=      32
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.18302.230.289
+cycle2> analysing result of search       18 on CPU        2 for process id    17849
+mysystem> mv finish.1 finish.18302.230.289
+mysystem> mv start.1 start.18302.230.289
+nodes seeding with CHILDPID=     18302
+mysystem> chmod +x submit_0.65708.sh
+getupair> connecting minima      302 and      291 pairs used=       2 remaining=      14 total pairs=      33
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.18332.302.291
+cycle2> analysing result of search       19 on CPU        3 for process id    17879
+mysystem> mv finish.2 finish.18332.302.291
+mysystem> mv start.2 start.18332.302.291
+nodes seeding with CHILDPID=     18332
+mysystem> chmod +x submit_0.52561.sh
+getupair> connecting minima      303 and      311 pairs used=       3 remaining=      13 total pairs=      34
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.18362.303.311
+cycle2> analysing result of search       20 on CPU        4 for process id    17910
+mysystem> mv finish.3 finish.18362.303.311
+mysystem> mv start.3 start.18362.303.311
+nodes seeding with CHILDPID=     18362
+mysystem> chmod +x submit_0.10989.sh
+getupair> connecting minima      339 and      366 pairs used=       4 remaining=      12 total pairs=      35
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.18392.339.366
+cycle2> analysing result of search       21 on CPU        5 for process id    17940
+mysystem> mv finish.4 finish.18392.339.366
+mysystem> mv start.4 start.18392.339.366
+nodes seeding with CHILDPID=     18392
+mysystem> chmod +x submit_0.72659.sh
+getupair> connecting minima      417 and      332 pairs used=       5 remaining=      11 total pairs=      36
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.18422.417.332
+cycle2> analysing result of search       22 on CPU        6 for process id    17970
+mysystem> mv finish.5 finish.18422.417.332
+mysystem> mv start.5 start.18422.417.332
+nodes seeding with CHILDPID=     18422
+mysystem> chmod +x submit_0.10843.sh
+getupair> connecting minima      399 and      409 pairs used=       6 remaining=      10 total pairs=      37
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.18452.399.409
+cycle2> analysing result of search       23 on CPU        7 for process id    18000
+mysystem> mv finish.6 finish.18452.399.409
+mysystem> mv start.6 start.18452.399.409
+nodes seeding with CHILDPID=     18452
+mysystem> chmod +x submit_0.29757.sh
+getupair> connecting minima      365 and      382 pairs used=       7 remaining=       9 total pairs=      38
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.18482.365.382
+cycle2> analysing result of search       24 on CPU        8 for process id    18030
+mysystem> mv finish.7 finish.18482.365.382
+mysystem> mv start.7 start.18482.365.382
+nodes seeding with CHILDPID=     18482
+mysystem> chmod +x submit_0.78643.sh
+getupair> connecting minima      367 and      372 pairs used=       8 remaining=       8 total pairs=      39
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.18512.367.372
+cycle2> analysing result of search       25 on CPU        9 for process id    18061
+mysystem> mv finish.8 finish.18512.367.372
+mysystem> mv start.8 start.18512.367.372
+nodes seeding with CHILDPID=     18512
+mysystem> chmod +x submit_0.48162.sh
+getupair> connecting minima      408 and      409 pairs used=       9 remaining=       7 total pairs=      40
+pairsdouble> Maximum number of pairs tried increased to       80
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.18542.408.409
+cycle2> analysing result of search       26 on CPU       10 for process id    18088
+mysystem> mv finish.9 finish.18542.408.409
+mysystem> mv start.9 start.18542.408.409
+nodes seeding with CHILDPID=     18542
+mysystem> chmod +x submit_0.94699.sh
+getupair> connecting minima      406 and      409 pairs used=      10 remaining=       6 total pairs=      41
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.18569.406.409
+cycle2> analysing result of search       27 on CPU       11 for process id    18118
+mysystem> mv finish.10 finish.18569.406.409
+mysystem> mv start.10 start.18569.406.409
+nodes seeding with CHILDPID=     18569
+mysystem> chmod +x submit_0.70031.sh
+getupair> connecting minima      426 and      374 pairs used=      11 remaining=       5 total pairs=      42
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.18599.426.374
+cycle2> analysing result of search       28 on CPU       12 for process id    18148
+mysystem> mv finish.11 finish.18599.426.374
+mysystem> mv start.11 start.18599.426.374
+nodes seeding with CHILDPID=     18599
+mysystem> chmod +x submit_0.83058.sh
+getupair> connecting minima      438 and      374 pairs used=      12 remaining=       4 total pairs=      43
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.18629.438.374
+cycle2> analysing result of search       29 on CPU       13 for process id    18178
+mysystem> mv finish.12 finish.18629.438.374
+mysystem> mv start.12 start.18629.438.374
+nodes seeding with CHILDPID=     18629
+mysystem> chmod +x submit_0.62384.sh
+getupair> connecting minima      214 and      335 pairs used=      13 remaining=       3 total pairs=      44
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.18659.214.335
+cycle2> analysing result of search       30 on CPU       14 for process id    18208
+mysystem> mv finish.13 finish.18659.214.335
+mysystem> mv start.13 start.18659.214.335
+nodes seeding with CHILDPID=     18659
+mysystem> chmod +x submit_0.81069.sh
+getupair> connecting minima      215 and      335 pairs used=      14 remaining=       2 total pairs=      45
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.18689.215.335
+cycle2> analysing result of search       31 on CPU       15 for process id    18238
+mysystem> mv finish.14 finish.18689.215.335
+mysystem> mv start.14 start.18689.215.335
+nodes seeding with CHILDPID=     18689
+mysystem> chmod +x submit_0.60931.sh
+getupair> connecting minima      338 and      335 pairs used=      15 remaining=       1 total pairs=      46
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.18719.338.335
+cycle2> analysing result of search       32 on CPU       16 for process id    18268
+mysystem> mv finish.15 finish.18719.338.335
+mysystem> mv start.15 start.18719.338.335
+nodes seeding with CHILDPID=     18719
+mysystem> chmod +x submit_0.63491.sh
+getupair> connecting minima      398 and      286 pairs used=      16 remaining=       0 total pairs=      47
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.18749.398.286
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        2 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+mysystem> mv finish.16 finish.18749.398.286
+mysystem> mv start.16 start.18749.398.286
+nodes seeding with CHILDPID=     18749
+mysystem> chmod +x submit_0.14964.sh
+cycle2> analysing result of search       33 on CPU        1 for process id    18302
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     214     213        3.3094500555
+     215     213        3.2222085068
+     338     213        3.1989643632
+     398     213        3.1612713128
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     338     5.108387611    
+     302     351     4.457065504    
+     303     364     4.187041807    
+     339     382     4.175653538    
+     417     409     3.933208324    
+     399     371     3.787439301    
+     365     373     3.776376515    
+     367     374     3.719526181    
+     408     335     3.639091505    
+     406     410     3.634322142    
+     426     368     3.430128025    
+     438     368     3.419320927    
+     214     348     3.309450055    
+     215     332     3.222208507    
+     338     332     3.198964363    
+     398     285     3.161271313    
+getupair> connecting minima      230 and      338 pairs used=       1 remaining=      15 total pairs=      48
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.18783.230.338
+cycle2> analysing result of search       34 on CPU        2 for process id    18332
+mysystem> mv finish.1 finish.18783.230.338
+mysystem> mv start.1 start.18783.230.338
+nodes seeding with CHILDPID=     18783
+mysystem> chmod +x submit_0.08050.sh
+getupair> connecting minima      302 and      351 pairs used=       2 remaining=      14 total pairs=      49
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.18813.302.351
+cycle2> analysing result of search       35 on CPU        3 for process id    18362
+mysystem> mv finish.2 finish.18813.302.351
+mysystem> mv start.2 start.18813.302.351
+nodes seeding with CHILDPID=     18813
+mysystem> chmod +x submit_0.51625.sh
+getupair> connecting minima      303 and      364 pairs used=       3 remaining=      13 total pairs=      50
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.18843.303.364
+cycle2> analysing result of search       36 on CPU        4 for process id    18392
+mysystem> mv finish.3 finish.18843.303.364
+mysystem> mv start.3 start.18843.303.364
+nodes seeding with CHILDPID=     18843
+mysystem> chmod +x submit_0.67844.sh
+getupair> connecting minima      339 and      382 pairs used=       4 remaining=      12 total pairs=      51
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.18873.339.382
+cycle2> analysing result of search       37 on CPU        5 for process id    18422
+mysystem> mv finish.4 finish.18873.339.382
+mysystem> mv start.4 start.18873.339.382
+nodes seeding with CHILDPID=     18873
+mysystem> chmod +x submit_0.14269.sh
+getupair> connecting minima      417 and      409 pairs used=       5 remaining=      11 total pairs=      52
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.18903.417.409
+cycle2> analysing result of search       38 on CPU        6 for process id    18452
+mysystem> mv finish.5 finish.18903.417.409
+mysystem> mv start.5 start.18903.417.409
+nodes seeding with CHILDPID=     18903
+mysystem> chmod +x submit_0.22774.sh
+getupair> connecting minima      399 and      371 pairs used=       6 remaining=      10 total pairs=      53
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.18933.399.371
+cycle2> analysing result of search       39 on CPU        7 for process id    18482
+mysystem> mv finish.6 finish.18933.399.371
+mysystem> mv start.6 start.18933.399.371
+nodes seeding with CHILDPID=     18933
+mysystem> chmod +x submit_0.75499.sh
+getupair> connecting minima      365 and      373 pairs used=       7 remaining=       9 total pairs=      54
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.18963.365.373
+cycle2> analysing result of search       40 on CPU        8 for process id    18512
+mysystem> mv finish.7 finish.18963.365.373
+mysystem> mv start.7 start.18963.365.373
+nodes seeding with CHILDPID=     18963
+mysystem> chmod +x submit_0.86177.sh
+getupair> connecting minima      367 and      374 pairs used=       8 remaining=       8 total pairs=      55
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.18993.367.374
+cycle2> analysing result of search       41 on CPU        9 for process id    18542
+mysystem> mv finish.8 finish.18993.367.374
+mysystem> mv start.8 start.18993.367.374
+nodes seeding with CHILDPID=     18993
+mysystem> chmod +x submit_0.83364.sh
+getupair> connecting minima      408 and      335 pairs used=       9 remaining=       7 total pairs=      56
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.19023.408.335
+cycle2> analysing result of search       42 on CPU       10 for process id    18569
+mysystem> mv finish.9 finish.19023.408.335
+mysystem> mv start.9 start.19023.408.335
+nodes seeding with CHILDPID=     19023
+mysystem> chmod +x submit_0.05908.sh
+getupair> connecting minima      406 and      410 pairs used=      10 remaining=       6 total pairs=      57
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.19050.406.410
+cycle2> analysing result of search       43 on CPU       11 for process id    18599
+mysystem> mv finish.10 finish.19050.406.410
+mysystem> mv start.10 start.19050.406.410
+nodes seeding with CHILDPID=     19050
+mysystem> chmod +x submit_0.94493.sh
+getupair> connecting minima      426 and      368 pairs used=      11 remaining=       5 total pairs=      58
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.19080.426.368
+cycle2> analysing result of search       44 on CPU       12 for process id    18629
+mysystem> mv finish.11 finish.19080.426.368
+mysystem> mv start.11 start.19080.426.368
+nodes seeding with CHILDPID=     19080
+mysystem> chmod +x submit_0.90622.sh
+getupair> connecting minima      438 and      368 pairs used=      12 remaining=       4 total pairs=      59
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.19110.438.368
+cycle2> analysing result of search       45 on CPU       13 for process id    18659
+mysystem> mv finish.12 finish.19110.438.368
+mysystem> mv start.12 start.19110.438.368
+nodes seeding with CHILDPID=     19110
+mysystem> chmod +x submit_0.18153.sh
+getupair> connecting minima      214 and      348 pairs used=      13 remaining=       3 total pairs=      60
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.19140.214.348
+cycle2> analysing result of search       46 on CPU       14 for process id    18689
+mysystem> mv finish.13 finish.19140.214.348
+mysystem> mv start.13 start.19140.214.348
+nodes seeding with CHILDPID=     19140
+mysystem> chmod +x submit_0.89980.sh
+getupair> connecting minima      215 and      332 pairs used=      14 remaining=       2 total pairs=      61
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.19170.215.332
+cycle2> analysing result of search       47 on CPU       15 for process id    18719
+mysystem> mv finish.14 finish.19170.215.332
+mysystem> mv start.14 start.19170.215.332
+nodes seeding with CHILDPID=     19170
+mysystem> chmod +x submit_0.52353.sh
+getupair> connecting minima      338 and      332 pairs used=      15 remaining=       1 total pairs=      62
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.19200.338.332
+cycle2> analysing result of search       48 on CPU       16 for process id    18749
+mysystem> mv finish.15 finish.19200.338.332
+mysystem> mv start.15 start.19200.338.332
+nodes seeding with CHILDPID=     19200
+mysystem> chmod +x submit_0.94131.sh
+getupair> connecting minima      398 and      285 pairs used=      16 remaining=       0 total pairs=      63
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.19230.398.285
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        3 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+mysystem> mv finish.16 finish.19230.398.285
+mysystem> mv start.16 start.19230.398.285
+nodes seeding with CHILDPID=     19230
+mysystem> chmod +x submit_0.62959.sh
+cycle2> analysing result of search       49 on CPU        1 for process id    18783
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     214     213        3.3094500555
+     215     213        3.2222085068
+     338     213        3.1989643632
+     398     213        3.1612713128
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     216     5.108387611    
+     302     382     4.457065504    
+     303     368     4.187041807    
+     339     291     4.175653538    
+     417     371     3.933208324    
+     399     332     3.787439301    
+     365     371     3.776376515    
+     367     368     3.719526181    
+     408     410     3.639091505    
+     406     335     3.634322142    
+     426     409     3.430128025    
+     438     409     3.419320927    
+     214     213     3.309450055    
+     215     348     3.222208507    
+     338     348     3.198964363    
+     398     381     3.161271313    
+getupair> connecting minima      230 and      216 pairs used=       1 remaining=      15 total pairs=      64
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.19264.230.216
+cycle2> analysing result of search       50 on CPU        2 for process id    18813
+mysystem> mv finish.1 finish.19264.230.216
+mysystem> mv start.1 start.19264.230.216
+nodes seeding with CHILDPID=     19264
+mysystem> chmod +x submit_0.75954.sh
+getupair> connecting minima      302 and      382 pairs used=       2 remaining=      14 total pairs=      65
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.19294.302.382
+cycle2> analysing result of search       51 on CPU        3 for process id    18843
+mysystem> mv finish.2 finish.19294.302.382
+mysystem> mv start.2 start.19294.302.382
+nodes seeding with CHILDPID=     19294
+mysystem> chmod +x submit_0.07517.sh
+getupair> connecting minima      303 and      368 pairs used=       3 remaining=      13 total pairs=      66
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.19325.303.368
+cycle2> analysing result of search       52 on CPU        4 for process id    18873
+mysystem> mv finish.3 finish.19325.303.368
+mysystem> mv start.3 start.19325.303.368
+nodes seeding with CHILDPID=     19325
+mysystem> chmod +x submit_0.74942.sh
+getupair> connecting minima      339 and      291 pairs used=       4 remaining=      12 total pairs=      67
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.19412.339.291
+cycle2> analysing result of search       53 on CPU        5 for process id    18903
+mysystem> mv finish.4 finish.19412.339.291
+mysystem> mv start.4 start.19412.339.291
+nodes seeding with CHILDPID=     19412
+mysystem> chmod +x submit_0.35165.sh
+getupair> connecting minima      417 and      371 pairs used=       5 remaining=      11 total pairs=      68
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.19449.417.371
+cycle2> analysing result of search       54 on CPU        6 for process id    18933
+mysystem> mv finish.5 finish.19449.417.371
+mysystem> mv start.5 start.19449.417.371
+nodes seeding with CHILDPID=     19449
+mysystem> chmod +x submit_0.60648.sh
+getupair> connecting minima      399 and      332 pairs used=       6 remaining=      10 total pairs=      69
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.19479.399.332
+cycle2> analysing result of search       55 on CPU        7 for process id    18963
+mysystem> mv finish.6 finish.19479.399.332
+mysystem> mv start.6 start.19479.399.332
+nodes seeding with CHILDPID=     19479
+mysystem> chmod +x submit_0.17005.sh
+getupair> connecting minima      365 and      371 pairs used=       7 remaining=       9 total pairs=      70
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.19509.365.371
+cycle2> analysing result of search       56 on CPU        8 for process id    18993
+mysystem> mv finish.7 finish.19509.365.371
+mysystem> mv start.7 start.19509.365.371
+nodes seeding with CHILDPID=     19509
+mysystem> chmod +x submit_0.38240.sh
+getupair> connecting minima      367 and      368 pairs used=       8 remaining=       8 total pairs=      71
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.19539.367.368
+cycle2> analysing result of search       57 on CPU        9 for process id    19023
+mysystem> mv finish.8 finish.19539.367.368
+mysystem> mv start.8 start.19539.367.368
+nodes seeding with CHILDPID=     19539
+mysystem> chmod +x submit_0.01439.sh
+getupair> connecting minima      408 and      410 pairs used=       9 remaining=       7 total pairs=      72
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.19569.408.410
+cycle2> analysing result of search       58 on CPU       10 for process id    19050
+mysystem> mv finish.9 finish.19569.408.410
+mysystem> mv start.9 start.19569.408.410
+nodes seeding with CHILDPID=     19569
+mysystem> chmod +x submit_0.51167.sh
+getupair> connecting minima      406 and      335 pairs used=      10 remaining=       6 total pairs=      73
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.19596.406.335
+cycle2> analysing result of search       59 on CPU       11 for process id    19080
+mysystem> mv finish.10 finish.19596.406.335
+mysystem> mv start.10 start.19596.406.335
+nodes seeding with CHILDPID=     19596
+mysystem> chmod +x submit_0.11572.sh
+getupair> connecting minima      426 and      409 pairs used=      11 remaining=       5 total pairs=      74
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.19626.426.409
+cycle2> analysing result of search       60 on CPU       12 for process id    19110
+mysystem> mv finish.11 finish.19626.426.409
+mysystem> mv start.11 start.19626.426.409
+nodes seeding with CHILDPID=     19626
+mysystem> chmod +x submit_0.56663.sh
+getupair> connecting minima      438 and      409 pairs used=      12 remaining=       4 total pairs=      75
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.19656.438.409
+cycle2> analysing result of search       61 on CPU       13 for process id    19140
+mysystem> mv finish.12 finish.19656.438.409
+mysystem> mv start.12 start.19656.438.409
+nodes seeding with CHILDPID=     19656
+mysystem> chmod +x submit_0.19621.sh
+getupair> connecting minima      214 and      213 pairs used=      13 remaining=       3 total pairs=      76
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.19686.214.213
+cycle2> analysing result of search       62 on CPU       14 for process id    19170
+mysystem> mv finish.13 finish.19686.214.213
+mysystem> mv start.13 start.19686.214.213
+nodes seeding with CHILDPID=     19686
+mysystem> chmod +x submit_0.47467.sh
+getupair> connecting minima      215 and      348 pairs used=      14 remaining=       2 total pairs=      77
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.19716.215.348
+cycle2> analysing result of search       63 on CPU       15 for process id    19200
+mysystem> mv finish.14 finish.19716.215.348
+mysystem> mv start.14 start.19716.215.348
+nodes seeding with CHILDPID=     19716
+mysystem> chmod +x submit_0.43439.sh
+getupair> connecting minima      338 and      348 pairs used=      15 remaining=       1 total pairs=      78
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.19746.338.348
+cycle2> analysing result of search       64 on CPU       16 for process id    19230
+mysystem> mv finish.15 finish.19746.338.348
+mysystem> mv start.15 start.19746.338.348
+nodes seeding with CHILDPID=     19746
+mysystem> chmod +x submit_0.19572.sh
+getupair> connecting minima      398 and      381 pairs used=      16 remaining=       0 total pairs=      79
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.19776.398.381
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        4 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+mysystem> mv finish.16 finish.19776.398.381
+mysystem> mv start.16 start.19776.398.381
+nodes seeding with CHILDPID=     19776
+mysystem> chmod +x submit_0.58677.sh
+cycle2> analysing result of search       65 on CPU        1 for process id    19264
+getbarrier> lowest minimum in product set lies at     -158.3999651    
+getbarrier> highest transition state lies at     -83.84685484    
+getupair> saved minima pairs and barriers:
+     230     213        5.1083876112
+     302     213        4.4570655036
+     303     213        4.1870418070
+     339     213        4.1756535384
+     417     213        3.9332083236
+     399     213        3.7874393014
+     365     213        3.7763765149
+     367     213        3.7195261807
+     408     213        3.6390915046
+     406     213        3.6343221425
+     426     213        3.4301280252
+     438     213        3.4193209274
+     215     213        3.2222085068
+     338     213        3.1989643632
+     398     213        3.1612713128
+     290     213        3.1009790132
+getupair> lowest minimum in product set lies at     -158.3999651    
+getupair> highest transition state lies at     -83.84685484    
+getupair> sorted list of       16 pairs
+     230     213     5.108387611    
+     302     380     4.457065504    
+     303     366     4.187041807    
+     339     351     4.175653538    
+     417     335     3.933208324    
+     399     335     3.787439301    
+     365     370     3.776376515    
+     367     369     3.719526181    
+     408     371     3.639091505    
+     406     371     3.634322142    
+     426     369     3.430128025    
+     438     369     3.419320927    
+     215     213     3.222208507    
+     338     213     3.198964363    
+     398     380     3.161271313    
+     290     213     3.100979013    
+getupair> connecting minima      230 and      213 pairs used=       1 remaining=      15 total pairs=      80
+pairsdouble> Maximum number of pairs tried increased to      160
+mysystem> cat odata.connect > odata.1
+mysystem> mv odata.1 odata.19810.230.213
+cycle2> analysing result of search       66 on CPU        2 for process id    19294
+mysystem> mv finish.1 finish.19810.230.213
+mysystem> mv start.1 start.19810.230.213
+nodes seeding with CHILDPID=     19810
+mysystem> chmod +x submit_0.03767.sh
+getupair> connecting minima      302 and      380 pairs used=       2 remaining=      14 total pairs=      81
+mysystem> cat odata.connect > odata.2
+mysystem> mv odata.2 odata.19840.302.380
+cycle2> analysing result of search       67 on CPU        3 for process id    19325
+mysystem> mv finish.2 finish.19840.302.380
+mysystem> mv start.2 start.19840.302.380
+nodes seeding with CHILDPID=     19840
+mysystem> chmod +x submit_0.07684.sh
+getupair> connecting minima      303 and      366 pairs used=       3 remaining=      13 total pairs=      82
+mysystem> cat odata.connect > odata.3
+mysystem> mv odata.3 odata.19870.303.366
+cycle2> analysing result of search       68 on CPU        4 for process id    19412
+mysystem> mv finish.3 finish.19870.303.366
+mysystem> mv start.3 start.19870.303.366
+nodes seeding with CHILDPID=     19870
+mysystem> chmod +x submit_0.68127.sh
+getupair> connecting minima      339 and      351 pairs used=       4 remaining=      12 total pairs=      83
+mysystem> cat odata.connect > odata.4
+mysystem> mv odata.4 odata.19900.339.351
+cycle2> analysing result of search       69 on CPU        5 for process id    19449
+mysystem> mv finish.4 finish.19900.339.351
+mysystem> mv start.4 start.19900.339.351
+nodes seeding with CHILDPID=     19900
+mysystem> chmod +x submit_0.83064.sh
+getupair> connecting minima      417 and      335 pairs used=       5 remaining=      11 total pairs=      84
+mysystem> cat odata.connect > odata.5
+mysystem> mv odata.5 odata.19930.417.335
+cycle2> analysing result of search       70 on CPU        6 for process id    19479
+mysystem> mv finish.5 finish.19930.417.335
+mysystem> mv start.5 start.19930.417.335
+nodes seeding with CHILDPID=     19930
+mysystem> chmod +x submit_0.03728.sh
+getupair> connecting minima      399 and      335 pairs used=       6 remaining=      10 total pairs=      85
+mysystem> cat odata.connect > odata.6
+mysystem> mv odata.6 odata.19963.399.335
+cycle2> analysing result of search       71 on CPU        7 for process id    19509
+mysystem> mv finish.6 finish.19963.399.335
+mysystem> mv start.6 start.19963.399.335
+nodes seeding with CHILDPID=     19963
+mysystem> chmod +x submit_0.09004.sh
+getupair> connecting minima      365 and      370 pairs used=       7 remaining=       9 total pairs=      86
+mysystem> cat odata.connect > odata.7
+mysystem> mv odata.7 odata.19993.365.370
+cycle2> analysing result of search       72 on CPU        8 for process id    19539
+mysystem> mv finish.7 finish.19993.365.370
+mysystem> mv start.7 start.19993.365.370
+nodes seeding with CHILDPID=     19993
+mysystem> chmod +x submit_0.92844.sh
+getupair> connecting minima      367 and      369 pairs used=       8 remaining=       8 total pairs=      87
+mysystem> cat odata.connect > odata.8
+mysystem> mv odata.8 odata.20023.367.369
+cycle2> analysing result of search       73 on CPU        9 for process id    19569
+mysystem> mv finish.8 finish.20023.367.369
+mysystem> mv start.8 start.20023.367.369
+nodes seeding with CHILDPID=     20023
+mysystem> chmod +x submit_0.04056.sh
+getupair> connecting minima      408 and      371 pairs used=       9 remaining=       7 total pairs=      88
+mysystem> cat odata.connect > odata.9
+mysystem> mv odata.9 odata.20053.408.371
+cycle2> analysing result of search       74 on CPU       10 for process id    19596
+mysystem> mv finish.9 finish.20053.408.371
+mysystem> mv start.9 start.20053.408.371
+nodes seeding with CHILDPID=     20053
+mysystem> chmod +x submit_0.93226.sh
+getupair> connecting minima      406 and      371 pairs used=      10 remaining=       6 total pairs=      89
+mysystem> cat odata.connect > odata.10
+mysystem> mv odata.10 odata.20080.406.371
+cycle2> analysing result of search       75 on CPU       11 for process id    19626
+mysystem> mv finish.10 finish.20080.406.371
+mysystem> mv start.10 start.20080.406.371
+nodes seeding with CHILDPID=     20080
+mysystem> chmod +x submit_0.92719.sh
+getupair> connecting minima      426 and      369 pairs used=      11 remaining=       5 total pairs=      90
+mysystem> cat odata.connect > odata.11
+mysystem> mv odata.11 odata.20110.426.369
+cycle2> analysing result of search       76 on CPU       12 for process id    19656
+mysystem> mv finish.11 finish.20110.426.369
+mysystem> mv start.11 start.20110.426.369
+nodes seeding with CHILDPID=     20110
+mysystem> chmod +x submit_0.39137.sh
+getupair> connecting minima      438 and      369 pairs used=      12 remaining=       4 total pairs=      91
+mysystem> cat odata.connect > odata.12
+mysystem> mv odata.12 odata.20140.438.369
+cycle2> analysing result of search       77 on CPU       13 for process id    19686
+mysystem> mv finish.12 finish.20140.438.369
+mysystem> mv start.12 start.20140.438.369
+nodes seeding with CHILDPID=     20140
+mysystem> chmod +x submit_0.62751.sh
+getupair> connecting minima      215 and      213 pairs used=      13 remaining=       3 total pairs=      92
+mysystem> cat odata.connect > odata.13
+mysystem> mv odata.13 odata.20170.215.213
+cycle2> analysing result of search       78 on CPU       14 for process id    19716
+mysystem> mv finish.13 finish.20170.215.213
+mysystem> mv start.13 start.20170.215.213
+nodes seeding with CHILDPID=     20170
+mysystem> chmod +x submit_0.71040.sh
+getupair> connecting minima      338 and      213 pairs used=      14 remaining=       2 total pairs=      93
+mysystem> cat odata.connect > odata.14
+mysystem> mv odata.14 odata.20200.338.213
+cycle2> analysing result of search       79 on CPU       15 for process id    19746
+mysystem> mv finish.14 finish.20200.338.213
+mysystem> mv start.14 start.20200.338.213
+nodes seeding with CHILDPID=     20200
+mysystem> chmod +x submit_0.51082.sh
+getupair> connecting minima      398 and      380 pairs used=      15 remaining=       1 total pairs=      94
+mysystem> cat odata.connect > odata.15
+mysystem> mv odata.15 odata.20230.398.380
+cycle2> analysing result of search       80 on CPU       16 for process id    19776
+mysystem> mv finish.15 finish.20230.398.380
+mysystem> mv start.15 start.20230.398.380
+nodes seeding with CHILDPID=     20230
+mysystem> chmod +x submit_0.15577.sh
+getupair> connecting minima      290 and      213 pairs used=      16 remaining=       0 total pairs=      95
+mysystem> cat odata.connect > odata.16
+mysystem> mv odata.16 odata.20260.290.213
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        5 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+mysystem> mv finish.16 finish.20260.290.213
+mysystem> mv start.16 start.20260.290.213
+nodes seeding with CHILDPID=     20260
+mysystem> chmod +x submit_0.79451.sh
+cycle2> analysing result of search       81 on CPU        1 for process id    19810
+cycle2> analysing result of search       82 on CPU        2 for process id    19840
+cycle2> analysing result of search       83 on CPU        3 for process id    19870
+cycle2> analysing result of search       84 on CPU        4 for process id    19900
+cycle2> analysing result of search       85 on CPU        5 for process id    19930
+cycle2> analysing result of search       86 on CPU        6 for process id    19963
+cycle2> analysing result of search       87 on CPU        7 for process id    19993
+cycle2> analysing result of search       88 on CPU        8 for process id    20023
+cycle2> analysing result of search       89 on CPU        9 for process id    20053
+cycle2> analysing result of search       90 on CPU       10 for process id    20080
+cycle2> analysing result of search       91 on CPU       11 for process id    20110
+cycle2> analysing result of search       92 on CPU       12 for process id    20140
+cycle2> analysing result of search       93 on CPU       13 for process id    20170
+cycle2> analysing result of search       94 on CPU       14 for process id    20200
+cycle2> analysing result of search       95 on CPU       15 for process id    20230
+cycle2> analysing result of search       96 on CPU       16 for process id    20260
+--------------------------------------------------------------------------------------------------------------
+cycle2> end of cycle        6 new min=       0 new ts=       0 total min=     445 total ts=     187
+--------------------------------------------------------------------------------------------------------------
+main> CPU time spent iterating committor probability=     0.0000     s
+main> total CPU time spent in PATHSAMPLE            =     1.1557     s

@@ -1,0 +1,10 @@
+Minimization                                                                    
+&cntrl                                                                          
+  imin = 1,                                                                     
+  ncyc = 1,                                                                     
+  maxcyc = 1,                                                                   
+  igb = 8, saltcon=0.1,                                                         
+  ntb    = 0,                                                                   
+  cut    = 999.0,                                                               
+  rgbmax = 25.0                                                                 
+/

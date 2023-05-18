@@ -1,0 +1,563 @@
+Starting parallel execution: Processor        15 of         16
+ keyword> group rotation moves enabled
+ grouptrot_init> Reading in atom groups for GROUPROTATION
+io1> Initial coordinates:
+        1.7180179000        1.5361579000        0.6203943000
+        1.9209435000        2.4037428000       -0.0058493000
+        1.1907617000        3.1838381000        0.2042282000
+        1.8575307000        2.1196417000       -1.0551121000
+        3.3080887000        2.9255925000        0.2876312000
+        4.0116914000        2.3671303000        1.1278368000
+        3.6983507000        3.9962890000       -0.4011908000
+        3.0444518000        4.3947970000       -1.0602817000
+        4.9927290000        4.6750020000       -0.2528564000
+        5.3740375000        4.4969200000        0.7541125000
+        5.9924427000        4.0815266000       -1.2592940000
+        6.0558531000        3.0042086000       -1.0972925000
+        5.6107899000        4.2359799000       -2.2700703000
+        7.3942493000        4.6560721000       -1.1622441000
+        7.8502353000        5.5830767000       -2.1214862000
+        7.2044786000        5.8821959000       -2.9384876000
+        9.1475891000        6.1239298000       -2.0222803000
+        9.4970641000        6.8324841000       -2.7608506000
+        9.9931776000        5.7379390000       -0.9591540000
+       11.2490393000        6.2493839000       -0.8610427000
+       11.4380782000        6.8624378000       -1.5831879000
+        9.5347967000        4.8106266000        0.0010860000
+       10.1870355000        4.5170153000        0.8121987000
+        8.2374711000        4.2713816000       -0.1010390000
+        7.8905306000        3.5576953000        0.6367670000
+        4.8501364000        6.1969049000       -0.4376695000
+        4.0084298000        6.6571344000       -1.2157887000
+        5.6681629000        6.9798048000        0.2727696000
+        6.3634762000        6.5381224000        0.8586722000
+        5.6778925000        8.4480298000        0.2318035000
+        5.4124217000        8.7765267000       -0.7745671000
+        4.6220827000        8.9853976000        1.2150689000
+        3.6544612000        8.5445716000        0.9700476000
+        4.8802253000        8.6601487000        2.2242973000
+        4.4637183000       10.4954670000        1.2010101000
+        4.9816177000       11.2742953000        2.2555267000
+        5.4795872000       10.7965410000        3.0910256000
+        4.8603754000       12.6777609000        2.2247135000
+        5.2595169000       13.2739673000        3.0339269000
+        4.2172327000       13.3061312000        1.1360748000
+        4.0934144000       14.6597001000        1.1014045000
+        4.4883373000       15.0699293000        1.8816468000
+        3.6970901000       12.5249824000        0.0818878000
+        3.2044247000       13.0114197000       -0.7488916000
+        3.8216084000       11.1223171000        0.1147634000
+        3.4226596000       10.5262596000       -0.6976094000
+        7.0735511000        9.0134128000        0.5583276000
+        7.8644628000        8.3741506000        1.2589203000
+        7.3718021000       10.2225784000        0.0751156000
+        6.6708033000       10.7087483000       -0.4686813000
+        8.6182300000       10.9480891000        0.3410841000
+        8.7720965000       11.0180322000        1.4185421000
+        9.4584002000       10.4002198000       -0.0863980000
+        8.6186732000       12.3669708000       -0.2406225000
+        7.7089937000       12.7488502000       -0.9831972000
+        9.6438477000       13.1536517000        0.0920558000
+       10.3588229000       12.7790906000        0.7020906000
+        9.8182955000       14.5372786000       -0.3668364000
+        9.7206971000       14.5727769000       -1.4524825000
+        9.0381054000       15.1660181000        0.0632554000
+       11.1804713000       15.1286382000        0.0149089000
+       11.9223526000       14.5442632000        0.8108288000
+       11.5174295000       16.2842073000       -0.5629312000
+       10.8501739000       16.7149666000       -1.1885594000
+       12.7895777000       16.9917591000       -0.3605860000
+       13.1569559000       16.7849900000        0.6461801000
+       13.8199297000       16.4631168000       -1.3740616000
+       13.9142912000       15.3832563000       -1.2485962000
+       13.4448167000       16.6406707000       -2.3837213000
+       15.2041175000       17.0731951000       -1.2437307000
+       15.6509457000       18.0262681000       -2.1816297000
+       15.0109533000       18.3205118000       -3.0048369000
+       16.9319100000       18.5990727000       -2.0535516000
+       17.2747498000       19.3265824000       -2.7765840000
+       17.7699568000       18.2196707000       -0.9820848000
+       19.0111519000       18.7604098000       -0.8574520000
+       19.1962511000       19.3875643000       -1.5682952000
+       17.3203313000       17.2671822000       -0.0424374000
+       17.9670059000       16.9788740000        0.7749968000
+       16.0394688000       16.6955547000       -0.1738210000
+       15.6998344000       15.9618535000        0.5476466000
+       12.6166372000       18.5165526000       -0.4940614000
+       11.7462402000       18.9863120000       -1.2338647000
+       13.4504820000       19.2902161000        0.2079444000
+       14.1605219000       18.8383396000        0.7678084000
+       13.4923651000       20.7572731000        0.1537427000
+       13.2064665000       21.0827608000       -0.8480907000
+       12.4812629000       21.3330843000        1.1607868000
+       11.4932124000       20.9264732000        0.9389897000
+       12.7527108000       20.9991309000        2.1639996000
+       12.3779213000       22.8482637000        1.1491076000
+       12.9332966000       23.6067647000        2.1996976000
+       13.4281125000       23.1104175000        3.0260010000
+       12.8497533000       25.0133764000        2.1790905000
+       13.2760442000       25.5931787000        2.9865995000
+       12.2097173000       25.6662930000        1.1029142000
+       12.1254259000       27.0229494000        1.0754019000
+       12.5412765000       27.4185652000        1.8525542000
+       11.6545006000       24.9059481000        0.0514169000
+       11.1643293000       25.4109495000       -0.7699524000
+       11.7379091000       23.4998263000        0.0759248000
+       11.3066015000       22.9202069000       -0.7317214000
+       14.9128174000       21.2841538000        0.4338874000
+       15.6626562000       20.6810487000        1.2084175000
+       15.2793680000       22.4167157000       -0.1795955000
+       14.5982279000       22.8657255000       -0.7763282000
+       16.5772803000       23.0726509000       -0.0197452000
+       17.3842320000       22.3452117000       -0.1306818000
+       16.6989879000       23.8510234000       -0.7752631000
+       16.6448458000       23.5280838000        0.9703055000
+ 110 AMBER12 atoms
+io1> Container radius=     1000.0000000000
+16 parallel runs
+In run   1 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   2 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   3 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   4 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   5 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   6 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   7 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   8 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run   9 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  10 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  11 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  12 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  13 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  14 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  15 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+In run  16 temperature=      0.3000 step size and angular threshold=      0.8000      0.0000 all fixed
+Configuration will be reset to quench geometry
+Sampling using Boltzmann weights
+Nocedal LBFGS minimisation
+Number of updates before reset in LBFGS=  1500
+Maximum step size=        0.2000000000
+Guess for initial diagonal elements in LBFGS=  0.1000    
+Sloppy quench tolerance for RMS gradient     0.1000000000E-03
+Final  quench tolerance for RMS gradient     0.1000000000E-06
+Energy difference criterion for minima=        0.0100000000
+Maximum number of iterations: sloppy quenches  3000 final quenches  5000
+Run   1:       200 steps with temperature scaled by  0.10000000E+01
+Maximum allowed energy rise during a minimisation=    0.1000000000E-03
+Restoring GMIN run from file GMIN.dump.
+Processor        15 of        16 speaking:
+Number of atoms       110
+Initial coordinates: process  15
+       -1.7312673266       12.2757823115        3.5946968752
+       -1.7498395874       11.8005928100        2.6150472610
+       -1.8480295273       10.7228099373        2.7358441682
+       -2.5925041613       12.1819386689        2.0401943177
+       -0.4615876170       12.1062784052        1.8876824163
+       -0.4872337647       12.7008443491        0.8113064053
+        0.6623281369       11.6995907524        2.4745679440
+        0.5816710903       11.2012687087        3.3498222398
+        2.0159341686       11.8784737188        1.9319050666
+        1.9572097205       11.9239895718        0.8431503926
+        2.5911640084       13.2115798193        2.4418844906
+        1.8902594437       14.0120867657        2.1995284892
+        2.6717894897       13.1692724747        3.5294793060
+        3.9415274242       13.5796796780        1.8527389276
+        5.1136129799       13.4547044614        2.6257610036
+        5.0559852889       13.1060931215        3.6497582078
+        6.3656583965       13.7798507370        2.0675560396
+        7.2667136029       13.6846953959        2.6562169861
+        6.4504291102       14.2301933605        0.7325934791
+        7.6580267783       14.5523999525        0.1974123361
+        7.5665809520       14.8489520378       -0.7163830929
+        5.2753736597       14.3571411731       -0.0403985694
+        5.3364423304       14.7057047991       -1.0623370234
+        4.0245861556       14.0314415599        0.5206343512
+        3.1245126101       14.1313621053       -0.0744218378
+        2.9312661808       10.6954026900        2.3006276835
+        2.7135867965       10.0249110818        3.3150648443
+        3.9597142424       10.4411101424        1.4859815544
+        4.1070917591       11.0591664378        0.6995554816
+        4.9654795228        9.3911532646        1.6930812501
+        5.0688790359        9.2062830623        2.7636568108
+        4.4886838660        8.0919052446        1.0212819320
+        3.4983129220        7.8405761837        1.4044108056
+        4.3879683436        8.2639228485       -0.0517572983
+        5.3980973246        6.8986726762        1.2549106694
+        6.2427728682        6.4358911198        0.2255246683
+        6.2355150571        6.9215604610       -0.7430002614
+        7.1035903852        5.3438202531        0.4532759322
+        7.7519185415        4.9907383816       -0.3371058839
+        7.1208723963        4.7102408164        1.7151314898
+        7.9492834253        3.6565995392        1.9426276944
+        8.4711898552        3.4422421865        1.1585095719
+        6.2742461399        5.1741265339        2.7447185977
+        6.2909914549        4.6845351829        3.7088561334
+        5.4147291129        6.2662363596        2.5139305466
+        4.7652881028        6.6186259080        3.3065872739
+        6.3431366289        9.8265776691        1.1588061363
+        6.4290531706       10.6202100453        0.2167139217
+        7.4239319176        9.3013776514        1.7450382464
+        7.2848587056        8.6380427901        2.4936315318
+        8.8037424742        9.6804311499        1.4172074845
+        9.4913400751        8.9304559970        1.8082897103
+        8.9228126213        9.7069411618        0.3331972588
+        9.2027678765       11.0443986225        1.9964852433
+        8.7874260496       11.4070477296        3.1012088579
+       10.0228242836       11.7991518543        1.2627901298
+       10.3271938589       11.4463662505        0.3653417360
+       10.4996778742       13.1316520595        1.6509901108
+        9.6507476500       13.7501336420        1.9429826677
+       11.1640850537       13.0433422695        2.5110141918
+       11.2563011204       13.8520558451        0.5291603212
+       11.5379251108       13.2682371697       -0.5223670643
+       11.5927512650       15.1239873808        0.7557708337
+       11.3419066719       15.5293170551        1.6471522240
+       12.3272495369       15.9855660014       -0.1803464552
+       12.9550228956       15.3630322332       -0.8203067976
+       11.3221811389       16.7345796941       -1.0718212652
+       10.6976990829       16.0040669649       -1.5885416812
+       10.6657752991       17.3341961269       -0.4387448019
+       11.9627916853       17.6326333513       -2.1147852727
+       12.0145442788       19.0270730121       -1.9145309133
+       11.5807026704       19.4654459206       -1.0238473806
+       12.6368399621       19.8548482343       -2.8694947948
+       12.6806345689       20.9250336839       -2.7212986708
+       13.2097325171       19.2898099870       -4.0290092812
+       13.8044584123       20.0931289867       -4.9506918336
+       14.1520195510       19.5815527490       -5.6925638930
+       13.1544888783       17.8930397792       -4.2307014456
+       13.5906628224       17.4583316331       -5.1197342623
+       12.5324938054       17.0675512742       -3.2729805568
+       12.4930989575       15.9959317292       -3.4286766084
+       13.2487135535       16.9689731349        0.5641509550
+       12.9429017795       17.3912398339        1.6837828657
+       14.3708758909       17.3393530273       -0.0587117883
+       14.5391532379       16.9845423594       -0.9899476540
+       15.3506999631       18.3058446740        0.4528539632
+       14.8225081187       19.0678691667        1.0287233238
+       16.3441559254       17.6013232893        1.3972153428
+       17.0234772719       18.3490019685        1.8094090381
+       15.7886093808       17.1889652070        2.2408889152
+       17.1693914161       16.4876643948        0.7705070895
+       18.4223146514       16.7739878130        0.1911128476
+       18.7999031884       17.7892091076        0.1871467967
+       19.1870447640       15.7413759739       -0.3869323746
+       20.1475440547       15.9563724489       -0.8348439916
+       18.7022984509       14.4159194982       -0.3852890318
+       19.4435345429       13.4229899664       -0.9448346578
+       18.9986885852       12.5683601343       -0.8750487832
+       17.4505124439       14.1270064209        0.2007768065
+       17.0783730538       13.1115296463        0.2066360901
+       16.6890396711       15.1620169069        0.7789716929
+       15.7310952235       14.9369696388        1.2313944150
+       16.0839654734       19.0258094560       -0.6953378456
+       16.1525651712       18.5194400466       -1.8200761391
+       16.6454958015       20.2074833315       -0.4098669517
+       16.5483535774       20.5571265163        0.5339894657
+       17.3859540280       21.0316300128       -1.3657881315
+       16.7426841904       21.3009366130       -2.2060818961
+       17.7344804153       21.9458540798       -0.8816243778
+       18.2499059664       20.4820902966       -1.7450489054
+MC> restore NDONE=       100
+mc> Calculating initial energy
+ chirality init> Number of bonds:     113
+ find_cistrans> WARNING! peptide bond found for non-standard residue(s):      1and     2
+ find_cistrans> WARNING! peptide bond found for non-standard residue(s):      7and     8
+ find_cistrans>      7 peptide bonds detected
+ find_chiral>      4 chiral atoms found
+ mc> Storing chiral information for initial (quench) structure
+ mc> Storing cis/trans information for initial (quench) structure
+ mc> Set cis-trans and chirality as needed
+mc calling initial quench
+ [15]Qu        100 E=    -153.4872228     steps=    0 RMS= 0.77601E-04 Markov E=    -153.4872228     t=        0.3
+Temperature range    0.5962000000         1.142000000    
+For this replica T=     1.093573124    
+Starting potential energy=    -153.4872228    
+Starting random number=    0.4819741884    
+Starting universal random number=    0.1493265439    
+ mc> Starting  16 parallel MC runs of        200 steps
+ mc> Temperature will be multiplied by      1.00000000 at every step
+ [15]Qu        101 E=    -153.4872139     steps=  613 RMS= 0.72286E-04 Markov E=    -153.4872228     t=        1.7
+ GROUPROTATION> Rotating group TYR2AB by   -41.636628091242052     
+ GROUPROTATION> Rotating group TYR6AB by   -46.901131928679845     
+ [15]Qu        102 E=    -153.4872236     steps=  781 RMS= 0.53575E-04 Markov E=    -153.4872139     t=        3.5
+ GROUPROTATION> Rotating group TYR2BG by   -79.464193170625137     
+ [15]Qu        103 E=    -153.4847236     steps=  759 RMS= 0.78325E-04 Markov E=    -153.4872236     t=        5.2
+ GROUPROTATION> Rotating group TYR1AB by   -89.339518286479716     
+ GROUPROTATION> Rotating group TYR2BG by   -55.361909939798807     
+ [15]Qu        104 E=    -150.6762559     steps=  804 RMS= 0.80700E-04 Markov E=    -153.4847236     t=        7.0
+ GROUPROTATION> Rotating group TYR5BG by    8.9483048154066225     
+ [15]Qu        105 E=    -153.4847172     steps=  605 RMS= 0.70877E-04 Markov E=    -153.4847236     t=        8.3
+ [15]Qu        106 E=    -153.4847189     steps=  626 RMS= 0.78995E-04 Markov E=    -153.4847172     t=        9.7
+ GROUPROTATION> Rotating group TYR1BG by   -51.717581377925157     
+ [15]Qu        107 E=    -153.4847229     steps=  630 RMS= 0.34666E-04 Markov E=    -153.4847189     t=       11.1
+ GROUPROTATION> Rotating group TYR2BG by    28.501697031839271     
+ [15]Qu        108 E=    -153.4870975     steps=  642 RMS= 0.35380E-04 Markov E=    -153.4847229     t=       12.5
+ GROUPROTATION> Rotating group TYR1AB by    68.065098233021516     
+ GROUPROTATION> Rotating group TYR5AB by    56.676767777390559     
+ [15]Qu        109 E=    -150.3859016     steps=  779 RMS= 0.96224E-04 Markov E=    -153.4870975     t=       14.3
+ GROUPROTATION> Rotating group TYR5AB by   -44.614386996581850     
+ [15]Qu        110 E=    -153.4870938     steps=  687 RMS= 0.54048E-04 Markov E=    -153.4870975     t=       15.8
+ GROUPROTATION> Rotating group TYR5BG by   -42.364052916677068     
+ [15]Qu        111 E=    -153.4901071     steps=  613 RMS= 0.79016E-04 Markov E=    -153.4870938     t=       17.1
+ GROUPROTATION> Rotating group TYR1AB by    69.245939466667735     
+ GROUPROTATION> Rotating group TYR2AB by   -5.5988435930799341     
+ GROUPROTATION> Rotating group TYR6AB by    60.417011204286425     
+ GROUPROTATION> Rotating group TYR1BG by   -64.351778125227199     
+ [15]Qu        112 E=    -151.2114868     steps=  803 RMS= 0.87922E-04 Markov E=    -153.4901071     t=       19.0
+gsaveit> putting this minimum into the list at position       2 EREAL,QMIN=    -153.4358804        -153.3189191    
+ [15]Qu        113 E=    -153.4358804     steps=  628 RMS= 0.64310E-04 Markov E=    -153.4901071     t=       20.3
+  cis_trans_check> Peptide bond   104   103   105   106 changed to cis.
+  cis_trans_check> Originally trans.
+  quench> WARNING: cis/trans differs from initial structure!
+  quench> CIS/TRANS CHECK FAILED - discarding structure
+ [15]Qu        114 E=    -18.90843377     steps=  644 RMS= 0.86914E-04 Markov E=    -153.4358804     t=       21.7
+ [15]Qu        115 E=    -153.4358819     steps=  631 RMS= 0.83245E-04 Markov E=    -153.4358804     t=       23.1
+ [15]Qu        116 E=    -153.4901061     steps=  615 RMS= 0.88319E-04 Markov E=    -153.4358819     t=       24.5
+ GROUPROTATION> Rotating group TYR1BG by    14.707380877672067     
+ [15]Qu        117 E=    -153.4901082     steps=  623 RMS= 0.94291E-04 Markov E=    -153.4901061     t=       25.8
+ GROUPROTATION> Rotating group TYR1AB by    31.050897986022541     
+ GROUPROTATION> Rotating group TYR6BG by   -22.205517802767691     
+ [15]Qu        118 E=    -153.4901054     steps=  814 RMS= 0.46452E-04 Markov E=    -153.4901082     t=       27.7
+ [15]Qu        119 E=    -153.4900865     steps=  571 RMS= 0.98271E-04 Markov E=    -153.4901054     t=       28.9
+ GROUPROTATION> Rotating group TYR1BG by   -88.729056358227353     
+gsaveit> putting this minimum into the list at position       5 EREAL,QMIN=    -153.2268713        -152.9750955    
+ [15]Qu        120 E=    -153.2268713     steps=  830 RMS= 0.68856E-04 Markov E=    -153.4900865     t=       30.8
+ [15]Qu        121 E=    -153.2268699     steps=  637 RMS= 0.29657E-04 Markov E=    -153.2268713     t=       32.2
+ GROUPROTATION> Rotating group TYR5BG by    39.469163021365823     
+gsaveit> putting this minimum into the list at position       6 EREAL,QMIN=    -153.1725491        -152.9750955    
+ [15]Qu        122 E=    -153.1725491     steps=  637 RMS= 0.75349E-04 Markov E=    -153.2268699     t=       33.6
+ [15]Qu        123 E=    -153.1725403     steps=  609 RMS= 0.84070E-04 Markov E=    -153.1725491     t=       34.9
+ GROUPROTATION> Rotating group TYR2BG by   -82.157744924836237     
+ [15]Qu        124 E=    -153.1725516     steps=  633 RMS= 0.48045E-04 Markov E=    -153.1725403     t=       36.3
+ [15]Qu        125 E=    -153.1725473     steps=  607 RMS= 0.79534E-04 Markov E=    -153.1725516     t=       37.6
+ GROUPROTATION> Rotating group TYR2AB by    84.166332411403147     
+ GROUPROTATION> Rotating group TYR6AB by    61.956989824087067     
+ GROUPROTATION> Rotating group TYR2BG by    50.923228790992447     
+gsaveit> putting this minimum into the list at position      12 EREAL,QMIN=    -152.3319960        -152.2727011    
+ [15]Qu        126 E=    -152.3319960     steps=  753 RMS= 0.63632E-04 Markov E=    -153.1725473     t=       39.3
+ [15]Qu        127 E=    -152.3319912     steps=  623 RMS= 0.76348E-04 Markov E=    -152.3319960     t=       40.7
+ GROUPROTATION> Rotating group TYR5AB by    69.352923151034318     
+gsaveit> putting this minimum into the list at position      17 EREAL,QMIN=    -151.6060659        -151.4740104    
+ [15]Qu        128 E=    -151.6060659     steps=  690 RMS= 0.81736E-04 Markov E=    -152.3319912     t=       42.2
+ GROUPROTATION> Rotating group TYR2BG by    52.371312472424201     
+ GROUPROTATION> Rotating group TYR5BG by   -53.066899319430206     
+ [15]Qu        129 E=    -152.3319939     steps=  640 RMS= 0.99332E-04 Markov E=    -152.3319912     t=       43.6
+ [15]Qu        130 E=    -152.3319943     steps=  636 RMS= 0.75734E-04 Markov E=    -152.3319939     t=       45.0
+ GROUPROTATION> Rotating group TYR5BG by   -55.032359791349407     
+ [15]Qu        131 E=    -152.3319966     steps=  651 RMS= 0.45371E-04 Markov E=    -152.3319943     t=       46.4
+ GROUPROTATION> Rotating group TYR5AB by   -45.828470107679330     
+gsaveit> putting this minimum into the list at position      10 EREAL,QMIN=    -152.3866923        -152.3694820    
+ [15]Qu        132 E=    -152.3866923     steps=  668 RMS= 0.86770E-04 Markov E=    -152.3319966     t=       47.9
+ GROUPROTATION> Rotating group TYR2AB by    77.735895762510708     
+gsaveit> putting this minimum into the list at position      17 EREAL,QMIN=    -151.8174979        -151.6946374    
+ [15]Qu        133 E=    -151.8174979     steps=  670 RMS= 0.97191E-04 Markov E=    -152.3866923     t=       49.4
+ GROUPROTATION> Rotating group TYR5AB by   -11.565926991705341     
+ GROUPROTATION> Rotating group TYR1BG by    6.4905557622773102     
+ [15]Qu        134 E=    -151.8175248     steps=  595 RMS= 0.94315E-04 Markov E=    -151.8174979     t=       50.6
+ GROUPROTATION> Rotating group TYR2BG by   -11.621078983506568     
+ [15]Qu        135 E=    -151.8175179     steps=  639 RMS= 0.71018E-04 Markov E=    -151.8175248     t=       52.0
+ GROUPROTATION> Rotating group TYR5AB by    55.292801355319561     
+gsaveit> putting this minimum into the list at position      23 EREAL,QMIN=    -151.0282141        -150.7972308    
+ [15]Qu        136 E=    -151.0282141     steps=  774 RMS= 0.58745E-04 Markov E=    -151.8175179     t=       53.8
+ GROUPROTATION> Rotating group TYR1AB by   -4.8804319760344583     
+ [15]Qu        137 E=    -151.8175263     steps=  588 RMS= 0.89684E-04 Markov E=    -151.8175179     t=       55.1
+ GROUPROTATION> Rotating group TYR2AB by    25.242317950500464     
+ [15]Qu        138 E=    -151.8175073     steps=  648 RMS= 0.95897E-04 Markov E=    -151.8175263     t=       56.5
+ [15]Qu        139 E=    -151.8175063     steps=  612 RMS= 0.97498E-04 Markov E=    -151.8175073     t=       57.8
+ GROUPROTATION> Rotating group TYR5AB by   -3.2034790805805269     
+ [15]Qu        140 E=    -151.8175108     steps=  598 RMS= 0.96303E-04 Markov E=    -151.8175063     t=       59.1
+ GROUPROTATION> Rotating group TYR1BG by   -46.919415639393129     
+ [15]Qu        141 E=    -151.8175222     steps=  601 RMS= 0.85154E-04 Markov E=    -151.8175108     t=       60.4
+ GROUPROTATION> Rotating group TYR1AB by   -65.434779052185377     
+ [15]Qu        142 E=    -151.4780830     steps=  700 RMS= 0.30133E-04 Markov E=    -151.8175222     t=       61.9
+ [15]Qu        143 E=    -152.6938749     steps=  727 RMS= 0.66820E-04 Markov E=    -151.4780830     t=       63.5
+ GROUPROTATION> Rotating group TYR2BG by    6.4924761336110226     
+  cis_trans_check> Peptide bond     6     5     7     8 changed to cis.
+  cis_trans_check> Originally trans.
+  quench> WARNING: cis/trans differs from initial structure!
+  quench> CIS/TRANS CHECK FAILED - discarding structure
+ [15]Qu        144 E=    -33.80659859     steps=  608 RMS= 0.78639E-04 Markov E=    -152.6938749     t=       64.8
+ GROUPROTATION> Rotating group TYR6AB by   -60.374294092786442     
+ GROUPROTATION> Rotating group TYR1BG by   -38.235709127807425     
+ [15]Qu        145 E=    -152.6938749     steps=  735 RMS= 0.63464E-04 Markov E=    -152.6938749     t=       66.5
+ [15]Qu        146 E=    -152.6938679     steps=  603 RMS= 0.85417E-04 Markov E=    -152.6938749     t=       67.8
+ GROUPROTATION> Rotating group TYR1AB by   -35.751898587764735     
+ GROUPROTATION> Rotating group TYR5BG by   -5.0152739262150217     
+ [15]Qu        147 E=    -152.6938423     steps=  657 RMS= 0.90690E-04 Markov E=    -152.6938679     t=       69.2
+ [15]Qu        148 E=    -152.6938417     steps=  554 RMS= 0.99786E-04 Markov E=    -152.6938423     t=       70.4
+ GROUPROTATION> Rotating group TYR1BG by   -73.508300603111877     
+ GROUPROTATION> Rotating group TYR5BG by    61.756157795781547     
+ [15]Qu        149 E=    -152.6938731     steps=  678 RMS= 0.94264E-04 Markov E=    -152.6938417     t=       71.9
+ GROUPROTATION> Rotating group TYR6AB by   -25.598174212171919     
+gsaveit> putting this minimum into the list at position      10 EREAL,QMIN=    -152.6734178        -152.3866923    
+ [15]Qu        150 E=    -152.6734178     steps=  657 RMS= 0.96168E-04 Markov E=    -152.6938731     t=       73.4
+[15]Acceptance ratio for previous     50 steps=  0.8600  FAC=  1.0500
+ GROUPROTATION> Rotating group TYR5BG by    78.477841852144124     
+ [15]Qu        151 E=    -152.6734435     steps=  634 RMS= 0.64912E-04 Markov E=    -152.6734178     t=       74.8
+ [15]Qu        152 E=    -152.6734445     steps=  603 RMS= 0.74037E-04 Markov E=    -152.6734435     t=       76.1
+ GROUPROTATION> Rotating group TYR1AB by   -41.564988932363867     
+ [15]Qu        153 E=    -152.6734312     steps=  688 RMS= 0.57750E-04 Markov E=    -152.6734445     t=       77.7
+ GROUPROTATION> Rotating group TYR5AB by    1.0593000537177755     
+ GROUPROTATION> Rotating group TYR5BG by   -10.170594771229396     
+ [15]Qu        154 E=    -152.6734356     steps=  609 RMS= 0.40251E-04 Markov E=    -152.6734312     t=       79.0
+ GROUPROTATION> Rotating group TYR1AB by    40.404708283109549     
+ [15]Qu        155 E=    -152.6734475     steps=  779 RMS= 0.52256E-04 Markov E=    -152.6734356     t=       80.8
+ GROUPROTATION> Rotating group TYR1AB by    57.617386055491735     
+ GROUPROTATION> Rotating group TYR1BG by    41.601909655281034     
+ [15]Qu        156 E=    -150.7995340     steps=  741 RMS= 0.69107E-04 Markov E=    -152.6734475     t=       82.4
+ [15]Qu        157 E=    -152.6734395     steps=  607 RMS= 0.80113E-04 Markov E=    -152.6734475     t=       83.7
+ GROUPROTATION> Rotating group TYR1AB by    31.773894714234537     
+ [15]Qu        158 E=    -152.6734252     steps=  659 RMS= 0.92363E-04 Markov E=    -152.6734395     t=       85.2
+gsaveit> putting this minimum into the list at position      22 EREAL,QMIN=    -151.4515188        -151.2114868    
+ [15]Qu        159 E=    -151.4515188     steps=  725 RMS= 0.80762E-04 Markov E=    -152.6734252     t=       86.8
+ GROUPROTATION> Rotating group TYR1BG by   -56.605361901756808     
+ [15]Qu        160 E=    -151.4515029     steps=  625 RMS= 0.97096E-04 Markov E=    -151.4515188     t=       88.2
+ [15]Qu        161 E=    -151.4515227     steps=  673 RMS= 0.55857E-04 Markov E=    -151.4515029     t=       89.7
+ GROUPROTATION> Rotating group TYR1AB by   -86.985510955240230     
+ GROUPROTATION> Rotating group TYR5AB by   -21.829076297589367     
+ GROUPROTATION> Rotating group TYR6AB by    76.411561900429803     
+ [15]Qu        162 E=    -149.9726854     steps=  673 RMS= 0.88177E-04 Markov E=    -151.4515227     t=       91.1
+ GROUPROTATION> Rotating group TYR1AB by   -48.114956265565787     
+ GROUPROTATION> Rotating group TYR2AB by    4.8491006788378588     
+ GROUPROTATION> Rotating group TYR6AB by   -29.947752019569450     
+ [15]Qu        163 E=    -149.9718765     steps=  679 RMS= 0.81470E-04 Markov E=    -149.9726854     t=       92.6
+ GROUPROTATION> Rotating group TYR1AB by    48.497019190644885     
+ [15]Qu        164 E=    -149.9718482     steps=  758 RMS= 0.86726E-04 Markov E=    -149.9718765     t=       94.3
+ [15]Qu        165 E=    -149.9718909     steps=  624 RMS= 0.70786E-04 Markov E=    -149.9718482     t=       95.6
+ GROUPROTATION> Rotating group TYR1BG by    45.074093795603865     
+ [15]Qu        166 E=    -149.9718535     steps=  625 RMS= 0.74701E-04 Markov E=    -149.9718909     t=       97.0
+ GROUPROTATION> Rotating group TYR5AB by   -85.854595718354346     
+ [15]Qu        167 E=    -148.9266593     steps=  763 RMS= 0.75518E-04 Markov E=    -149.9718535     t=       98.7
+ GROUPROTATION> Rotating group TYR1BG by    64.509279329909674     
+ [15]Qu        168 E=    -149.9718920     steps=  678 RMS= 0.72108E-04 Markov E=    -149.9718535     t=      100.2
+ GROUPROTATION> Rotating group TYR2AB by   -61.862365556686434     
+ GROUPROTATION> Rotating group TYR2BG by    1.1217063232668245     
+ [15]Qu        169 E=    -150.0773651     steps=  728 RMS= 0.40636E-04 Markov E=    -149.9718920     t=      101.8
+ [15]Qu        170 E=    -150.0385377     steps=  549 RMS= 0.96877E-04 Markov E=    -150.0773651     t=      102.9
+ GROUPROTATION> Rotating group TYR2BG by    17.442486440364906     
+ [15]Qu        171 E=    -150.0385434     steps=  662 RMS= 0.41908E-04 Markov E=    -150.0385377     t=      104.4
+ GROUPROTATION> Rotating group TYR1AB by   -32.724047523919587     
+ GROUPROTATION> Rotating group TYR6BG by    62.735222468856321     
+ [15]Qu        172 E=    -150.0385500     steps=  670 RMS= 0.94310E-04 Markov E=    -150.0385434     t=      105.8
+ GROUPROTATION> Rotating group TYR1BG by   -72.308833454575165     
+ [15]Qu        173 E=    -150.0385495     steps=  644 RMS= 0.73440E-04 Markov E=    -150.0385500     t=      107.2
+ [15]Qu        174 E=    -150.0385235     steps=  591 RMS= 0.89715E-04 Markov E=    -150.0385495     t=      108.5
+ GROUPROTATION> Rotating group TYR2AB by    55.514508402182429     
+ GROUPROTATION> Rotating group TYR2BG by    22.521607382001871     
+ GROUPROTATION> Rotating group TYR6BG by   -4.3743430601241462     
+ [15]Qu        175 E=    -150.0385444     steps=  690 RMS= 0.74823E-04 Markov E=    -150.0385235     t=      110.0
+ [15]Qu        176 E=    -150.3537213     steps= 1048 RMS= 0.70981E-04 Markov E=    -150.0385444     t=      112.6
+ GROUPROTATION> Rotating group TYR1AB by    46.769827436001734     
+ GROUPROTATION> Rotating group TYR6BG by    69.736183912558403     
+ [15]Qu        177 E=    -150.3537170     steps=  732 RMS= 0.79200E-04 Markov E=    -150.3537213     t=      114.2
+ GROUPROTATION> Rotating group TYR1AB by    59.851950788556977     
+ GROUPROTATION> Rotating group TYR6AB by   -67.834339927551142     
+gsaveit> putting this minimum into the list at position      15 EREAL,QMIN=    -152.2848870        -152.2727011    
+ [15]Qu        178 E=    -152.2848870     steps=  924 RMS= 0.76819E-04 Markov E=    -150.3537170     t=      116.4
+ GROUPROTATION> Rotating group TYR2BG by    82.716438688118743     
+ GROUPROTATION> Rotating group TYR6BG by   -23.787671138423672     
+ [15]Qu        179 E=    -152.2922716     steps=  671 RMS= 0.90348E-04 Markov E=    -152.2848870     t=      117.9
+ GROUPROTATION> Rotating group TYR1BG by   -25.903728382939796     
+ [15]Qu        180 E=    -152.2922766     steps=  595 RMS= 0.73190E-04 Markov E=    -152.2922716     t=      119.2
+gsaveit> putting this minimum into the list at position      11 EREAL,QMIN=    -152.6136820        -152.3866923    
+ [15]Qu        181 E=    -152.6136820     steps=  717 RMS= 0.75124E-04 Markov E=    -152.2922766     t=      120.8
+ GROUPROTATION> Rotating group TYR5AB by    56.182054982658457     
+ [15]Qu        182 E=    -152.6136834     steps=  735 RMS= 0.94117E-04 Markov E=    -152.6136820     t=      122.5
+ [15]Qu        183 E=    -152.6136834     steps=  897 RMS= 0.60530E-04 Markov E=    -152.6136834     t=      124.7
+ [15]Qu        184 E=    -152.6136788     steps=  589 RMS= 0.64734E-04 Markov E=    -152.6136834     t=      125.9
+ GROUPROTATION> Rotating group TYR6AB by    28.711556424661786     
+ [15]Qu        185 E=    -152.6136283     steps=  654 RMS= 0.93240E-04 Markov E=    -152.6136788     t=      127.4
+ [15]Qu        186 E=    -152.6136739     steps=  624 RMS= 0.84565E-04 Markov E=    -152.6136283     t=      128.7
+ GROUPROTATION> Rotating group TYR6BG by    11.938430623612399     
+ [15]Qu        187 E=    -152.6136669     steps=  595 RMS= 0.86602E-04 Markov E=    -152.6136739     t=      130.0
+ GROUPROTATION> Rotating group TYR1AB by    83.153622321545200     
+ GROUPROTATION> Rotating group TYR2AB by    28.017014759307489     
+ GROUPROTATION> Rotating group TYR6AB by    20.272784258397955     
+ [15]Qu        188 E=    -150.7509172     steps=  766 RMS= 0.56418E-04 Markov E=    -152.6136669     t=      131.8
+ GROUPROTATION> Rotating group TYR6BG by   -4.5717156705976238     
+ [15]Qu        189 E=    -152.6136710     steps=  630 RMS= 0.64064E-04 Markov E=    -152.6136669     t=      133.1
+ GROUPROTATION> Rotating group TYR6AB by   -75.023559589749553     
+gsaveit> putting this minimum into the list at position       7 EREAL,QMIN=    -153.0218495        -152.9750955    
+ [15]Qu        190 E=    -153.0218495     steps=  671 RMS= 0.72845E-04 Markov E=    -152.6136710     t=      134.6
+ [15]Qu        191 E=    -153.0218636     steps=  729 RMS= 0.76855E-04 Markov E=    -153.0218495     t=      136.3
+ GROUPROTATION> Rotating group TYR2BG by    73.051118795129327     
+ GROUPROTATION> Rotating group TYR6BG by   -83.092480064915648     
+ [15]Qu        192 E=    -153.0148614     steps=  750 RMS= 0.50363E-04 Markov E=    -153.0218636     t=      138.0
+ GROUPROTATION> Rotating group TYR6AB by    12.571612004727477     
+ [15]Qu        193 E=    -153.0148495     steps=  653 RMS= 0.88525E-04 Markov E=    -153.0148614     t=      139.4
+ [15]Qu        194 E=    -153.0148560     steps=  630 RMS= 0.70399E-04 Markov E=    -153.0148495     t=      140.8
+ [15]Qu        195 E=    -152.6839673     steps=  789 RMS= 0.80379E-04 Markov E=    -153.0148560     t=      142.6
+ GROUPROTATION> Rotating group TYR2AB by   -18.972784624757185     
+ [15]Qu        196 E=    -153.0148583     steps=  659 RMS= 0.65502E-04 Markov E=    -153.0148560     t=      144.0
+ [15]Qu        197 E=    -153.0148510     steps=  599 RMS= 0.85743E-04 Markov E=    -153.0148583     t=      145.3
+ GROUPROTATION> Rotating group TYR6AB by    14.079864891513356     
+ [15]Qu        198 E=    -153.0148627     steps=  671 RMS= 0.65312E-04 Markov E=    -153.0148510     t=      146.8
+ GROUPROTATION> Rotating group TYR6BG by   0.96062885716699420     
+ [15]Qu        199 E=    -153.0148567     steps=  635 RMS= 0.70999E-04 Markov E=    -153.0148627     t=      148.2
+ GROUPROTATION> Rotating group TYR1BG by   -30.318188622793382     
+ GROUPROTATION> Rotating group TYR6BG by   -27.740551000570296     
+ [15]Qu        200 E=    -153.0148656     steps=  664 RMS= 0.73636E-04 Markov E=    -153.0148567     t=      149.6
+[15]Acceptance ratio for previous     50 steps=  0.9200  FAC=  1.0500
+mc> MC steps using MPI finished.
+[15]BHPT_IO>    0 out of     6 exchanges accepted in this process.
+[15]BHPT_IO>Local quenches / function calls / time:                 100              145400              149.63
+[--]BHPT_IO>    8 out of    56 exchanges accepted overall.
+[--]BHPT_IO>Total quenches / function calls / time:                1600             2271449             2529.64
+Acceptance ratio for run=     0.89000 Step=     0.80000 Angular step factor=     0.00000 T=     1.09357
+Tightly converging the SAVE lowest energy minima found
+NOTE: these may NOT match the other output files - see below for a sorted list of Lowest minima
+Final Quench      1 energy=    -153.4901111     steps=  639 RMS force=  0.5813617E-07 time=      189.28
+Final Quench      2 energy=    -153.4358854     steps=  622 RMS force=  0.9683824E-07 time=      190.60
+Final Quench      3 energy=    -153.3189191     steps=  525 RMS force=  0.8884420E-07 time=      191.68
+Final Quench      4 energy=    -153.3017865     steps=  652 RMS force=  0.9365033E-07 time=      193.08
+Final Quench      5 energy=    -153.2268713     steps=  435 RMS force=  0.9245235E-07 time=      193.95
+Final Quench      6 energy=    -153.1725519     steps=  570 RMS force=  0.5239076E-07 time=      195.15
+Final Quench      7 energy=    -153.0218636     steps=  536 RMS force=  0.9436695E-07 time=      196.26
+Final Quench      8 energy=    -152.9751113     steps=  652 RMS force=  0.4486197E-07 time=      197.67
+Final Quench      9 energy=    -152.9588522     steps=  650 RMS force=  0.5564728E-07 time=      199.06
+Final Quench     10 energy=    -152.6938749     steps=  391 RMS force=  0.8365156E-07 time=      199.84
+Final Quench     11 energy=    -152.6734475     steps=  519 RMS force=  0.9644592E-07 time=      200.92
+Final Quench     12 energy=    -152.6136834     steps=  523 RMS force=  0.7200818E-07 time=      202.01
+Final Quench     13 energy=    -152.3866975     steps=  637 RMS force=  0.3508531E-07 time=      203.38
+Final Quench     14 energy=    -152.3694820     steps=  578 RMS force=  0.4567401E-07 time=      204.59
+Final Quench     15 energy=    -152.3534238     steps=  533 RMS force=  0.6357987E-07 time=      205.69
+Final Quench     16 energy=    -152.3319973     steps=  604 RMS force=  0.5279395E-07 time=      206.98
+Final Quench     17 energy=    -152.2922781     steps=  597 RMS force=  0.9895720E-07 time=      208.24
+Final Quench     18 energy=    -152.2727104     steps=  674 RMS force=  0.5493324E-07 time=      209.69
+Final Quench     19 energy=    -151.9029187     steps=  647 RMS force=  0.6667390E-07 time=      211.08
+Final Quench     20 energy=    -151.8901674     steps=  427 RMS force=  0.9463885E-07 time=      211.94
+Final Quench     21 energy=    -151.8175321     steps=  641 RMS force=  0.7816411E-07 time=      213.33
+Final Quench     22 energy=    -151.6946380     steps=  642 RMS force=  0.6364033E-07 time=      214.73
+Final Quench     23 energy=    -151.6061231     steps=  631 RMS force=  0.6527810E-07 time=      216.08
+Final Quench     24 energy=    -151.4780834     steps=  576 RMS force=  0.8413471E-07 time=      217.32
+Final Quench     25 energy=    -151.4515231     steps=  656 RMS force=  0.6336661E-07 time=      218.75
+Final Quench     26 energy=    -151.2114868     steps=  482 RMS force=  0.8620545E-07 time=      219.70
+After re-sorting, the lowest found minima are (lowest free energy subtracted if applicable):
+Lowest Minimum      1 Energy=     -153.4901111    
+Lowest Minimum      2 Energy=     -153.4358854    
+Lowest Minimum      3 Energy=     -153.3189191    
+Lowest Minimum      4 Energy=     -153.3017865    
+Lowest Minimum      5 Energy=     -153.2268713    
+Lowest Minimum      6 Energy=     -153.1725519    
+Lowest Minimum      7 Energy=     -153.0218636    
+Lowest Minimum      8 Energy=     -152.9751113    
+Lowest Minimum      9 Energy=     -152.9588522    
+Lowest Minimum     10 Energy=     -152.6938749    
+Lowest Minimum     11 Energy=     -152.6734475    
+Lowest Minimum     12 Energy=     -152.6136834    
+Lowest Minimum     13 Energy=     -152.3866975    
+Lowest Minimum     14 Energy=     -152.3694820    
+Lowest Minimum     15 Energy=     -152.3534238    
+Lowest Minimum     16 Energy=     -152.3319973    
+Lowest Minimum     17 Energy=     -152.2922781    
+Lowest Minimum     18 Energy=     -152.2727104    
+Lowest Minimum     19 Energy=     -151.9029187    
+Lowest Minimum     20 Energy=     -151.8901674    
+Lowest Minimum     21 Energy=     -151.8175321    
+Lowest Minimum     22 Energy=     -151.6946380    
+Lowest Minimum     23 Energy=     -151.6061231    
+Lowest Minimum     24 Energy=     -151.4780834    
+Lowest Minimum     25 Energy=     -151.4515231    
+Lowest Minimum     26 Energy=     -151.2114868    
+time elapsed              219.7 seconds
+Number of potential calls             160466

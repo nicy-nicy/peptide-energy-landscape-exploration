@@ -1,0 +1,6 @@
+source leaprc.ff99SBildn
+mol = sequence {ACE TYR TYR GLY GLY TYR TYR NME}
+set default PBradii mbondi3
+saveamberparm mol old_coords.prmtop old_coords.inpcrd 
+savepdb mol old_mol.pdb                                                            
+quit           

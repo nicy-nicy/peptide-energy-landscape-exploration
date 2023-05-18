@@ -1,0 +1,548 @@
+PATHSAMPLE version rUnversioned directory                                                 
+GetNodes> Will run 1 jobs per core
+getnodes> Interactive run - not checking for nodes.info file
+mysystem> hostname > currentnode
+mysystem> rm currentnode
+mysystem> sinfo --version | sed 's/-wlm//' | cut -c7-8 > slurmversion
+mysystem> rm slurmversion
+keywords> Distance tolerance for identifying atoms in the same orbit=        0.00100
+ keywords> Maximum number of secondary sets in perm.allow file=  5
+keywords> Number of groups of permutable atoms=    12
+ keywords> read AMBER12 keyword
+ readtopology> Number of dihedrals:     403
+ readtopology> Reading dihedrals including hydrogens
+ readtopology> Reading dihedrals without hydrogens
+*************************************************************************************************
+debug printing is OFF
+Running on          1 processors for distributed memory SLURM setup
+Number of jobs per processor=         1
+Sleep times between OPTIM job submissions (s)=     1.000000000         1.000000000    
+The following additional files will be copied to distributed nodes: perm.allow min.in coords.prmtop coords.inpcrd
+finite system (not bulk)
+OPTIM system symbol: UN
+number of atoms or variables=  110
+minimum number of connections for minima=         1
+maximum number of ts searches to achieve this minimum value=        10
+random number seed=         1
+initial perturbation parameter single-ended transition state searches=        0.90000
+energy difference  criterion for distinguishing stationary points=    0.1000000000E-03
+distance criterion for distinguishing stationary points=    0.3000000000E+00
+inertia difference criterion for setup check=    0.1000000000E+01
+sampling direction is a<-b
+OPTIM executable: /sharedscratch/nn320/softwarewales/OPTIM/builds/gfortran/A12OPTIM               
+Temperature=        0.59200
+Number of cycles for connections between local minima=       0
+No Pfold iterations
+Rate calculation will iteratively remove minima with     0 connections or fewer
+path.info files will be read as min-sad-min triples
+Resetting EVCUT to  0.10E+21 for SI units; check it is appropriate for your system
+*************************************************************************************************
+setup> locations read for          1 min of type A
+setup> locations read for          1 min of type B
+mindouble> Increasing maximum number of minima to       52
+mindouble> Increasing maximum number of minima to      104
+mindouble> Increasing maximum number of minima to      208
+mindouble> Increasing maximum number of minima to      416
+mindouble> Increasing maximum number of minima to      832
+setup> parameters read for        445 min
+tsdouble> Maximum number of ts increased to       20
+tsdouble> Maximum number of ts increased to       40
+tsdouble> Maximum number of ts increased to       80
+setup> WARNING *** ts, + min, - min, unphysical barriers:     78   334   334     68.08356507         68.08356507    
+tsdouble> Maximum number of ts increased to      160
+tsdouble> Maximum number of ts increased to      320
+setup> parameters read for        187 ts
+setup> Setting up ts pointers
+setup> Calculating rate constants
+shannon> reference minimum and energy=     213    -158.3999651    
+     258 minima with        0 connections or fewer will not be considered
+Steps to reference minimum converged in        8 cycles; disconnected=     290
+Number of remaining minima and transition states (excludes degenerate rearrangements and underconnected minima)=     155     185
+getbarrier3> Mean uphill and downhill barriers for all      185 ts and      167 connected components=    3.948835        2.800830        4.091469        2.929900    
+getbarrier3> Degenerate rearrangements are excluded
+getbarrier3> Assigning minima to basins.
+Energy of global minimum is     -158.3999651    
+getbarrier3> highest transition state lies at     -142.1639113    
+Done.
+
+shannon> mean downhill barrier to lowest minimum=     7.622452966    
+shannon>        0 entries for global minimum detected in min.data
+setup> Lowest minimum position and energy=       213    -158.3999651    
+setup> Shifting all potential energies relative to zero for the lowest minimum
+shannon> Calculating Shannon entropy for temperature range         0.01000        1.20000 increment         0.0100000000 energy increment for barriers=        0.5000000000
+ PSUM=   1.0000000000000160     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.84996E-03   0.10591        124.61    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99999999999997680     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.29687E-01    3.6991        124.60    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99999999880794155     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.92163E-01    11.437        124.09    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99999971556636980     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.16161        19.375        119.89    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99999276647898827     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.23922        25.937        108.42    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99994129293767953     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.33254        30.636        92.125    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99975536549573818     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.43662        33.378        76.446    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99932562568694738     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.53819        34.486        64.077    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99856677272506411     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.62684        34.504        55.044    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99741430444930346     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.69894        33.924        48.536    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99579366371556854     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.75548        33.071        43.774    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99359559544172327     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.79925        32.123        40.192    
+ highest           -1  Peq minima:
+
+ PSUM=  0.99066486279270394     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.83316        31.163        37.404    
+ highest           -1  Peq minima:
+
+ PSUM=  0.98679784437728701     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.85967        30.219        35.152    
+ highest           -1  Peq minima:
+
+ PSUM=  0.98174621543959795     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.88068        29.290        33.258    
+ highest           -1  Peq minima:
+
+ PSUM=  0.97522597722069360     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.89760        28.362        31.598    
+ highest           -1  Peq minima:
+
+ PSUM=  0.96693030778686540     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.91147        27.417        30.079    
+ highest           -1  Peq minima:
+
+ PSUM=  0.95654269384090018     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.92305        26.430        28.633    
+ highest           -1  Peq minima:
+
+ PSUM=  0.94374530778782706     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.93290        25.377        27.202    
+ highest           -1  Peq minima:
+
+ PSUM=  0.92821744709867793     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.94144        24.232        25.739    
+ highest           -1  Peq minima:
+
+ PSUM=  0.90962079811586982     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.94899        22.967        24.202    
+ highest           -1  Peq minima:
+
+ PSUM=  0.88757415820886232     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.95579        21.555        22.552    
+ highest           -1  Peq minima:
+
+ PSUM=  0.86163279769025958     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.96204        19.970        20.758    
+ highest           -1  Peq minima:
+
+ PSUM=  0.83130671724751126     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.96785        18.199        18.804    
+ highest           -1  Peq minima:
+
+ PSUM=  0.79616622558329475     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.97326        16.251        16.697    
+ highest           -1  Peq minima:
+
+ PSUM=  0.75606392075412365     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.97828        14.166        14.480    
+ highest           -1  Peq minima:
+
+ PSUM=  0.71142201865355836     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.98283        12.026        12.236    
+ highest           -1  Peq minima:
+
+ PSUM=  0.66342365416849658     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.98681        9.9384        10.071    
+ highest           -1  Peq minima:
+
+ PSUM=  0.61392488683539592     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99014        8.0141        8.0939    
+ highest           -1  Peq minima:
+
+ PSUM=  0.56506103431773957     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99282        6.3369        6.3827    
+ highest           -1  Peq minima:
+
+ PSUM=  0.51874411236232432     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99486        4.9466        4.9722    
+ highest           -1  Peq minima:
+
+ PSUM=  0.47630968120430789     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99638        3.8408        3.8548    
+ highest           -1  Peq minima:
+
+ PSUM=  0.43842715398538201     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99746        2.9876        2.9952    
+ highest           -1  Peq minima:
+
+ PSUM=  0.40521256616524315     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99823        2.3425        2.3466    
+ highest           -1  Peq minima:
+
+ PSUM=  0.37641843238337064     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99876        1.8600        1.8623    
+ highest           -1  Peq minima:
+
+ PSUM=  0.35160844127489882     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99913        1.5005        1.5018    
+ highest           -1  Peq minima:
+
+ PSUM=  0.33028093150789140     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99938        1.2319        1.2327    
+ highest           -1  Peq minima:
+
+ PSUM=  0.31194166262562595     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99956        1.0302        1.0306    
+ highest           -1  Peq minima:
+
+ PSUM=  0.29613973825131301     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99968       0.87713       0.87741    
+ highest           -1  Peq minima:
+
+ PSUM=  0.28248094176446631     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99977       0.75976       0.75994    
+ highest           -1  Peq minima:
+
+ PSUM=  0.27062889449423799     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99983       0.66864       0.66875    
+ highest           -1  Peq minima:
+
+ PSUM=  0.26030048798763389     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99987       0.59698       0.59706    
+ highest           -1  Peq minima:
+
+ PSUM=  0.25125918267434577     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99990       0.53990       0.53995    
+ highest           -1  Peq minima:
+
+ PSUM=  0.24330799708782636     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99993       0.49385       0.49389    
+ highest           -1  Peq minima:
+
+ PSUM=  0.23628301581348968     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99994       0.45625       0.45627    
+ highest           -1  Peq minima:
+
+ PSUM=  0.23004772159248835     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99996       0.42518       0.42520    
+ highest           -1  Peq minima:
+
+ PSUM=  0.22448820138395348     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99997       0.39922       0.39924    
+ highest           -1  Peq minima:
+
+ PSUM=  0.21950916289264805     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99997       0.37732       0.37733    
+ highest           -1  Peq minima:
+
+ PSUM=  0.21503065688796241     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99998       0.35865       0.35866    
+ highest           -1  Peq minima:
+
+ PSUM=  0.21098539390497464     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99998       0.34261       0.34262    
+ highest           -1  Peq minima:
+
+ PSUM=  0.20731655218557135     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.32870       0.32871    
+ highest           -1  Peq minima:
+
+ PSUM=  0.20397598735497682     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.31656       0.31656    
+ highest           -1  Peq minima:
+
+ PSUM=  0.20092276878324400     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.30587       0.30588    
+ highest           -1  Peq minima:
+
+ PSUM=  0.19812198091550473     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.29642       0.29642    
+ highest           -1  Peq minima:
+
+ PSUM=  0.19554373937649785     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.28799       0.28800    
+ highest           -1  Peq minima:
+
+ PSUM=  0.19316238127192709     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=   0.99999       0.28045       0.28045    
+ highest           -1  Peq minima:
+
+ PSUM=  0.19095579698247880     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.27367       0.27367    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18890487711801338     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.26753       0.26753    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18699305342321021     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.26195       0.26195    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18520591652868876     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.25686       0.25686    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18353089673207004     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.25221       0.25221    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18195699662138851     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.24793       0.24793    
+ highest           -1  Peq minima:
+
+ PSUM=  0.18047456646250079     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.24398       0.24398    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17907511496339437     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.24033       0.24033    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17775114938778505     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.23694       0.23694    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17649604008860259     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.23379       0.23379    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17530390541497332     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.23085       0.23085    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17416951366553235     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.22810       0.22810    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17308819934317518     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.22552       0.22552    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17205579143957814     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.22310       0.22310    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17106855186617359     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.22083       0.22083    
+ highest           -1  Peq minima:
+
+ PSUM=  0.17012312246552797     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.21868       0.21868    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16921647929580083     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.21665       0.21665    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16834589309705131     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.21473       0.21473    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16750889502329036     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.21290       0.21290    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16670324687210569     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.21117       0.21117    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16592691516264191     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20953       0.20953    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16517804851612197     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20796       0.20796    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16445495787555392     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20646       0.20646    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16375609917168121     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20503       0.20503    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16308005810173823     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20367       0.20367    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16242553673615392     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20236       0.20236    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16179134171072895     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.20110       0.20110    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16117637379604788     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19990       0.19990    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16057961866605849     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19874       0.19874    
+ highest           -1  Peq minima:
+
+ PSUM=  0.16000013871239391     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19763       0.19763    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15943706577355105     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19656       0.19656    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15888959466363572     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19553       0.19553    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15835697740339064     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19454       0.19454    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15783851806879298     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19358       0.19358    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15733356818165919     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19265       0.19265    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15684152258026693     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19176       0.19176    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15636181571205998     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19089       0.19089    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15589391830146035     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.19005       0.19005    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15543733434860360     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18924       0.18924    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15499159842337706     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18845       0.18845    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15455627322043416     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18769       0.18769    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15413094734787000     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18695       0.18695    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15371523332363107     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18623       0.18623    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15330876575755845     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18554       0.18554    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15291119969949377     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18486       0.18486    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15252220913646214     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18420       0.18420    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15214148562296295     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18356       0.18356    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15176873703138063     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18293       0.18293    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15140368641033977     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18232       0.18232    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15104607093991876     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18173       0.18173    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15069564097487187     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18115       0.18115    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15035215916685291     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18059       0.18059    
+ highest           -1  Peq minima:
+
+ PSUM=  0.15001539965839533     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.18004       0.18004    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14968514734130145     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17950       0.17950    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14936119717460444     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17898       0.17898    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14904335355523374     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17847       0.17847    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14873142973724590     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17797       0.17797    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14842524729609030     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17748       0.17748    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14812463563164965     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17700       0.17700    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14782943150934141     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17654       0.17654    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14753947863415096     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17608       0.17608    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14725462725510133     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17563       0.17563    
+ highest           -1  Peq minima:
+
+ PSUM=  0.14697473379837564     
+PRENORM,FRUSTRATION,FRUSTRATION/PRENORM=    1.0000       0.17520       0.17520    
+ highest           -1  Peq minima:
+

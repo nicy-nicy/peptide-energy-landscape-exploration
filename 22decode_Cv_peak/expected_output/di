@@ -1,0 +1,287 @@
+
+Disconnectivity Graphs
+----------------------
+
+       2 sets of minima will be traced in colour
+Colour  1:        2 minima read in from min.minus.
+Colour  2:        6 minima read in from min.plus.
+Number of levels not set - choosing value -1
+     445 minima read in from min.data.
+ Global minimum at index, energy        213   -158.3999651337.
+     185 non-degenerate paths read in from ts.data.
+Highest and lowest transition states:     -83.8468548402   -156.2633109132
+For auto range setting ts energy threshold to maximum ts energy
+ n_min,n_ts=         445         185
+     258 minima with        0 connections or fewer will not be considered
+Steps to global minimum converged in        8 cycles; disconnected=     290
+for autorange, setting maximum ts energy and top of range to     -83.84685484     rounded up
+Setting the number of levels to cover the range from first to global minimum plus      1
+Number of levels=    78
+Number of remaining minima and transition states=     155     167
+
+Assigning minima to basins.
+      44 basins at energy     -83.0000000000
+      44 basins at energy     -84.0000000000
+      44 basins at energy     -85.0000000000
+      44 basins at energy     -86.0000000000
+      44 basins at energy     -87.0000000000
+      44 basins at energy     -88.0000000000
+      44 basins at energy     -89.0000000000
+      44 basins at energy     -90.0000000000
+      44 basins at energy     -91.0000000000
+      44 basins at energy     -92.0000000000
+      44 basins at energy     -93.0000000000
+      44 basins at energy     -94.0000000000
+      44 basins at energy     -95.0000000000
+      44 basins at energy     -96.0000000000
+      44 basins at energy     -97.0000000000
+      44 basins at energy     -98.0000000000
+      44 basins at energy     -99.0000000000
+      44 basins at energy    -100.0000000000
+      44 basins at energy    -101.0000000000
+      44 basins at energy    -102.0000000000
+      44 basins at energy    -103.0000000000
+      44 basins at energy    -104.0000000000
+      44 basins at energy    -105.0000000000
+      44 basins at energy    -106.0000000000
+      44 basins at energy    -107.0000000000
+      44 basins at energy    -108.0000000000
+      44 basins at energy    -109.0000000000
+      44 basins at energy    -110.0000000000
+      44 basins at energy    -111.0000000000
+      44 basins at energy    -112.0000000000
+      44 basins at energy    -113.0000000000
+      44 basins at energy    -114.0000000000
+      44 basins at energy    -115.0000000000
+      44 basins at energy    -116.0000000000
+      44 basins at energy    -117.0000000000
+      44 basins at energy    -118.0000000000
+      44 basins at energy    -119.0000000000
+      44 basins at energy    -120.0000000000
+      44 basins at energy    -121.0000000000
+      44 basins at energy    -122.0000000000
+      44 basins at energy    -123.0000000000
+      44 basins at energy    -124.0000000000
+      44 basins at energy    -125.0000000000
+      44 basins at energy    -126.0000000000
+      44 basins at energy    -127.0000000000
+      44 basins at energy    -128.0000000000
+      44 basins at energy    -129.0000000000
+      44 basins at energy    -130.0000000000
+      44 basins at energy    -131.0000000000
+      44 basins at energy    -132.0000000000
+      44 basins at energy    -133.0000000000
+      44 basins at energy    -134.0000000000
+      44 basins at energy    -135.0000000000
+      44 basins at energy    -136.0000000000
+      44 basins at energy    -137.0000000000
+      44 basins at energy    -138.0000000000
+      44 basins at energy    -139.0000000000
+      44 basins at energy    -140.0000000000
+      44 basins at energy    -141.0000000000
+      44 basins at energy    -142.0000000000
+      46 basins at energy    -143.0000000000
+      47 basins at energy    -144.0000000000
+      48 basins at energy    -145.0000000000
+      45 basins at energy    -146.0000000000
+      47 basins at energy    -147.0000000000
+      50 basins at energy    -148.0000000000
+      52 basins at energy    -149.0000000000
+      62 basins at energy    -150.0000000000
+      80 basins at energy    -151.0000000000
+     100 basins at energy    -152.0000000000
+      95 basins at energy    -153.0000000000
+      77 basins at energy    -154.0000000000
+      43 basins at energy    -155.0000000000
+      23 basins at energy    -156.0000000000
+      11 basins at energy    -157.0000000000
+      10 basins at energy    -158.0000000000
+       4 basins at energy    -159.0000000000
+       0 basins at energy    -160.0000000000
+Done.
+
+Pruning minima.
+Nodes remaining at level   1:        1
+Nodes remaining at level   2:        1
+Nodes remaining at level   3:        1
+Nodes remaining at level   4:        1
+Nodes remaining at level   5:        1
+Nodes remaining at level   6:        1
+Nodes remaining at level   7:        1
+Nodes remaining at level   8:        1
+Nodes remaining at level   9:        1
+Nodes remaining at level  10:        1
+Nodes remaining at level  11:        1
+Nodes remaining at level  12:        1
+Nodes remaining at level  13:        1
+Nodes remaining at level  14:        1
+Nodes remaining at level  15:        1
+Nodes remaining at level  16:        1
+Nodes remaining at level  17:        1
+Nodes remaining at level  18:        1
+Nodes remaining at level  19:        1
+Nodes remaining at level  20:        1
+Nodes remaining at level  21:        1
+Nodes remaining at level  22:        1
+Nodes remaining at level  23:        1
+Nodes remaining at level  24:        1
+Nodes remaining at level  25:        1
+Nodes remaining at level  26:        1
+Nodes remaining at level  27:        1
+Nodes remaining at level  28:        1
+Nodes remaining at level  29:        1
+Nodes remaining at level  30:        1
+Nodes remaining at level  31:        1
+Nodes remaining at level  32:        1
+Nodes remaining at level  33:        1
+Nodes remaining at level  34:        1
+Nodes remaining at level  35:        1
+Nodes remaining at level  36:        1
+Nodes remaining at level  37:        1
+Nodes remaining at level  38:        1
+Nodes remaining at level  39:        1
+Nodes remaining at level  40:        1
+Nodes remaining at level  41:        1
+Nodes remaining at level  42:        1
+Nodes remaining at level  43:        1
+Nodes remaining at level  44:        1
+Nodes remaining at level  45:        1
+Nodes remaining at level  46:        1
+Nodes remaining at level  47:        1
+Nodes remaining at level  48:        1
+Nodes remaining at level  49:        1
+Nodes remaining at level  50:        1
+Nodes remaining at level  51:        1
+Nodes remaining at level  52:        1
+Nodes remaining at level  53:        1
+Nodes remaining at level  54:        1
+Nodes remaining at level  55:        1
+Nodes remaining at level  56:        1
+Nodes remaining at level  57:        1
+Nodes remaining at level  58:        1
+Nodes remaining at level  59:        1
+Nodes remaining at level  60:        1
+Nodes remaining at level  61:        4
+Nodes remaining at level  62:        7
+Nodes remaining at level  63:       18
+Nodes remaining at level  64:       24
+Nodes remaining at level  65:       28
+Nodes remaining at level  66:       31
+Nodes remaining at level  67:       36
+Nodes remaining at level  68:       51
+Nodes remaining at level  69:       71
+Nodes remaining at level  70:       98
+Nodes remaining at level  71:       95
+Nodes remaining at level  72:       77
+Nodes remaining at level  73:       43
+Nodes remaining at level  74:       23
+Nodes remaining at level  75:       11
+Nodes remaining at level  76:       10
+Nodes remaining at level  77:        4
+Nodes remaining at level  78:        0
+highest node for auto range is         59
+Done.
+
+Working out basin branching numbers.
+Done.
+
+Counting node sizes.
+Done.
+
+Ordering branches.
+Level   1
+Level   2
+Level   3
+Level   4
+Level   5
+Level   6
+Level   7
+Level   8
+Level   9
+Level  10
+Level  11
+Level  12
+Level  13
+Level  14
+Level  15
+Level  16
+Level  17
+Level  18
+Level  19
+Level  20
+Level  21
+Level  22
+Level  23
+Level  24
+Level  25
+Level  26
+Level  27
+Level  28
+Level  29
+Level  30
+Level  31
+Level  32
+Level  33
+Level  34
+Level  35
+Level  36
+Level  37
+Level  38
+Level  39
+Level  40
+Level  41
+Level  42
+Level  43
+Level  44
+Level  45
+Level  46
+Level  47
+Level  48
+Level  49
+Level  50
+Level  51
+Level  52
+Level  53
+Level  54
+Level  55
+Level  56
+Level  57
+Level  58
+Level  59
+Level  60
+Level  61
+Level  62
+Level  63
+Level  64
+Level  65
+Level  66
+Level  67
+Level  68
+Level  69
+Level  70
+Level  71
+Level  72
+Level  73
+Level  74
+Level  75
+Level  76
+Level  77
+Level  78
+Done.
+
+Finding section assignments of nodes for colour".
+Done.
+
+Finding the parent of each basin.
+Done.
+
+Allocating vertical space to nodes.
+Done.
+
+Finding left and right edges of the graph at each level
+Done.
+
+Writing tree.ps.
+         633
+Done.
+

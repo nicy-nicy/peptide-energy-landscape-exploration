@@ -1,0 +1,41 @@
+! DEBUG                                                                         
+! MPI                                                                           
+! BHPT 0.5962 1.142 10                                                          
+SLOPPYCONV 1.0D-4                                                               
+TIGHTCONV 1.0D-7                                                                
+MAXERISE 1.0D-4                                                                 
+UPDATES 1500                                                                    
+MAXIT 3000 5000                                                                 
+MAXBFGS 0.2D0                                                                   
+TRACKDATA                                                                       
+! DUMPSTRUCTURES                                                                
+! DUMP                                                                          
+! DUMPSTEPS                                                                     
+EDIFF 0.01D0                                                                    
+GROUPROTATION                                                                   
+STEPS 15 1.0                                                                
+SAVE 5                                                                       
+! RESTORE GMIN.dump                                                             
+! When I run 100000 steps, I use DUMPINT 10000, and frequency of rigid body moves as 111
+DUMPINT 10                                                                   
+FIXBOTH                                                                         
+CENTRE                                                                          
+                                                                                
+TEMPERATURE 0.6                                                                 
+STEP 0.8 0.0                                                                    
+EXPANDRIGID 5 10.0 NORMALISE                                                  
+TRANSLATERIGID 5 8.0                                                          
+ROTATERIGID 5 1.0                                                             
+COMPRESS 3.56                                                                   
+                                                                                
+RIGIDINIT                                                                       
+HYBRIDMIN 1.0D5                                                                 
+UPDATERIGIDREF                                                                  
+                                                                                
+! TRANSLATERIGID, ROTATERIGID, UNIFORMMOVE                                      
+! UNIFORMMOVE                                                                   
+                                                                                
+! COMPRESS or COMPRESSRIGID and GUIDE                                           
+GUIDE 1.0D-1                                                                    
+                                                                                
+AMBER12 

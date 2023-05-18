@@ -1,0 +1,5 @@
+autorange
+delta 1.0
+minima min.data
+ts ts.data
+trmin 2 445 min.minus min.plus

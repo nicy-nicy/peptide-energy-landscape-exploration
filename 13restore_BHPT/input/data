@@ -1,0 +1,32 @@
+MPI                                                                             
+! 300K to 575K                                                                  
+! 20 replicas determined by no nodes set                                        
+BHPT 0.5962 1.142 10                                                            
+
+SLOPPYCONV 1.0D-4                                                               
+TIGHTCONV 1.0D-7                                                                
+GROUPROTATION                                                                   
+STEP 0.8 0.0                                                                    
+
+FIXBOTH                                                                         
+MAXERISE 1.0D-4                                                                 
+
+! Restoring a GMIN run with more number of steps
+STEPS 200 1.0                                                                
+RESTORE GMIN.dump.
+
+SAVE 26                                                                       
+EDIFF 0.01D0                                                                    
+! GEOMDIFFTOL 2.6D0                                                             
+TRACKDATA                                                                       
+
+! Increase the argument of DUMPINT based on total number of steps
+DUMPINT 10                                                                  
+
+UPDATES 1500                                                                    
+MAXIT 3000 5000                                                                 
+MAXBFGS 0.2D0                                                                   
+RADIUS 1000.0                                                                   
+! DUMPSTRUCTURES                                                                
+! DEBUG                                                                         
+AMBER12

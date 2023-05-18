@@ -1,0 +1,40 @@
+PATHSAMPLE version rUnversioned directory                                                 
+GetNodes> Will run 1 jobs per core
+getnodes> Interactive run - not checking for nodes.info file
+mysystem> hostname > currentnode
+mysystem> rm currentnode
+mysystem> sinfo --version | sed 's/-wlm//' | cut -c7-8 > slurmversion
+mysystem> rm slurmversion
+keywords> Distance tolerance for identifying atoms in the same orbit=        0.00100
+ keywords> Maximum number of secondary sets in perm.allow file=  5
+keywords> Number of groups of permutable atoms=    12
+ keywords> read AMBER12 keyword
+ readtopology> Number of dihedrals:     403
+ readtopology> Reading dihedrals including hydrogens
+ readtopology> Reading dihedrals without hydrogens
+*************************************************************************************************
+debug printing is OFF
+Running on          1 processors for distributed memory SLURM setup
+Number of jobs per processor=         1
+Sleep times between OPTIM job submissions (s)=     1.000000000         1.000000000    
+The following additional files will be copied to distributed nodes: perm.allow min.in coords.prmtop coords.inpcrd
+finite system (not bulk)
+OPTIM system symbol: UN
+number of atoms or variables=  110
+minimum number of connections for minima=         1
+maximum number of ts searches to achieve this minimum value=        10
+random number seed=         1
+initial perturbation parameter single-ended transition state searches=        0.90000
+energy difference  criterion for distinguishing stationary points=    0.1000000000E-03
+distance criterion for distinguishing stationary points=    0.3000000000E+00
+inertia difference criterion for setup check=    0.1000000000E+01
+sampling direction is a<-b
+OPTIM executable: /sharedscratch/nn320/softwarewales/OPTIM/builds/gfortran/A12OPTIM               
+Temperature=        0.59200
+Number of cycles for connections between local minima=       0
+No Pfold iterations
+Rate calculation will iteratively remove minima with     0 connections or fewer
+path.info files will be read as min-sad-min triples
+Resetting EVCUT to  0.10E+21 for SI units; check it is appropriate for your system
+*************************************************************************************************
+setup> extracting minimum        213

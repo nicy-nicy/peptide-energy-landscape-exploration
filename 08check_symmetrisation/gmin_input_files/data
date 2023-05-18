@@ -1,0 +1,8 @@
+STEPS 1 1.0                                                                     
+MAXIT 1 1
+MAXBFGS 0.0D0
+STEP 0.0 0.0                                                                    
+SLOPPYCONV 1.0D-6                                                               
+TIGHTCONV 1.0D-6                                                                
+TEMPERATURE 0.5962                                                              
+AMBER12 

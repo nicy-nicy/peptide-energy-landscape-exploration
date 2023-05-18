@@ -1,0 +1,18 @@
+! Extra keywords present in odata.connect to perform QCI calculation
+! 110 is the number of atoms in QCI and QCIMAXACTIVE keywords
+CONCUTABS 0.2 0.05                                                              
+QCIRESET 2000                                                                   
+QCI 1.D-3 1.0 1.0 9.0 0.0 110 0 300000 2000 400000 1.0 1.5                      
+KINT 3.0                                                                        
+CHECKREP 100 1.25                                                                                                                               
+QCIIMAGE 0.0 1.5 25 25 1 12 501                                                 
+QCIADJUSTK 5 12.0 1.01 1.0 3.0                                                  
+INTSPRINGACTIVE                                                                 
+QCILPERMDIST 2501 1.2D0                                                         
+QCIMAXACTIVE 110                                                                
+INTFREEZE 0.02D0 5                                                              
+MAXCON 10                                                                       
+QCICONCUT 50.0                                                                  
+QCICYCLES 5.0 200                                                               
+QCIAMBER                                                                        
+AMBER12 start 

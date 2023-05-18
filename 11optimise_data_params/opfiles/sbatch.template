@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --job-name=OptimiseDataParams
+#SBATCH --partition=TEST
+#SBATCH -n1 -N1
+##SBATCH --mail-type=FAIL # Receive an email if your job fails
+
+echo $SLURM_NTASKS > nodes.info
+srun hostname >> nodes.info
+echo $USER >> nodes.info
+pwd >> nodes.info
+
+cd $SLURM_SUBMIT_DIR/
+echo $SLURM_NTASKS > nodes.info     
+srun hostname >> nodes.info  
+echo $USER >> nodes.info 
+pwd >> nodes.info 
